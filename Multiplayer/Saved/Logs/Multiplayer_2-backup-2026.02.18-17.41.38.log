@@ -1,0 +1,1796 @@
+﻿Log file open, 02/18/26 18:40:50
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogProfilingDebugging: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogWindows: Started CrashReportClient (pid=18296)
+LogWindows: Custom abort handler registered for crash reporting.
+LogInit: Display: Running engine for game: Multiplayer
+LogCore: UTS: Unreal Trace Server launched successfully
+LogTrace: Initializing trace...
+LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark,screenshot,region'
+LogTrace: Display: Control listening on port 36568
+LogTrace: Finished trace initialization.
+LogCsvProfiler: Display: Metadata set : platform="Windows"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.6-CL-44394996"
+LogCsvProfiler: Display: Metadata set : engineversion="5.6.1-44394996+++UE5+Release-5.6"
+LogCsvProfiler: Display: Metadata set : os="Windows 11 (24H2) [10.0.26100.7840] "
+LogCsvProfiler: Display: Metadata set : cpu="AuthenticAMD|AMD Ryzen 7 7435HS"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+LogCsvProfiler: Display: Metadata set : asan="0"
+LogCsvProfiler: Display: Metadata set : commandline="" C:\Users\user\Documents\GitHub\UnrealMultiplayer\Multiplayer\Multiplayer.uproject Lobby_lvl -server -log -nosteam""
+LogCsvProfiler: Display: Metadata set : loginid="a3694d144fbaba090c2f43b0ddaceea8"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogStats: Stats thread started at 0.301163
+LogCsvProfiler: Display: Metadata set : systemresolution.resx="1280"
+LogCsvProfiler: Display: Metadata set : systemresolution.resy="720"
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogInit: Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Windows-1E88268E4394ADC4B07111831DFB502D
+         Session CrashGUID >====================================================
+LogConfig: No local boot hotfix file found at: [../../../../../../Users/user/Documents/GitHub/UnrealMultiplayer/Multiplayer/Saved/PersistentDownloadDir/HotfixForNextBoot.txt]
+LogAudio: Display: Audio Device Manager not initializing due to all audio being disabled. If this is not intentional, please check command line arguments for "-nosound".
+LogPluginManager: Looking for build plugins target receipt
+LogPluginManager: Unable to find target receipt in path: ../../../../../../Users/user/Documents/GitHub/UnrealMultiplayer/Multiplayer/Binaries/Win64/*.target
+LogConfig: Display: Loading Android ini files took 0.03 seconds
+LogConfig: Display: Loading IOS ini files took 0.03 seconds
+LogConfig: Display: Loading Mac ini files took 0.03 seconds
+LogConfig: Display: Loading Linux ini files took 0.05 seconds
+LogConfig: Display: Loading TVOS ini files took 0.04 seconds
+LogConfig: Display: Loading Unix ini files took 0.04 seconds
+LogConfig: Display: Loading VulkanPC ini files took 0.03 seconds
+LogPluginManager: Found matching target receipt: ../../../Engine/Binaries/Win64/UnrealEditor.target
+LogPluginManager: Looking for enabled plugins target receipt
+LogPluginManager: Unable to find target receipt in path: ../../../../../../Users/user/Documents/GitHub/UnrealMultiplayer/Multiplayer/Binaries/Win64/*.target
+LogConfig: Display: Loading Windows ini files took 0.04 seconds
+LogConfig: Display: Loading VisionOS ini files took 0.04 seconds
+LogPluginManager: Found matching target receipt: ../../../Engine/Binaries/Win64/UnrealEditor.target
+LogPluginManager: Mounting Engine plugin ChaosCloth
+LogPluginManager: Mounting Engine plugin ChaosInsights
+LogPluginManager: Mounting Engine plugin ChaosVD
+LogPluginManager: Mounting Engine plugin CmdLinkServer
+LogPluginManager: Mounting Engine plugin EnhancedInput
+LogPluginManager: Mounting Engine plugin FastBuildController
+LogPluginManager: Mounting Engine plugin IoStoreInsights
+LogPluginManager: Mounting Engine plugin MassInsights
+LogPluginManager: Mounting Engine plugin MeshPainting
+LogPluginManager: Mounting Engine plugin RenderGraphInsights
+LogPluginManager: Mounting Engine plugin TraceUtilities
+LogPluginManager: Mounting Engine plugin UbaController
+LogPluginManager: Mounting Engine plugin WorldMetrics
+LogPluginManager: Mounting Engine plugin XGEController
+LogPluginManager: Mounting Engine plugin Paper2D
+LogPluginManager: Mounting Engine plugin AISupport
+LogPluginManager: Mounting Engine plugin EnvironmentQueryEditor
+LogPluginManager: Mounting Engine plugin ACLPlugin
+LogPluginManager: Mounting Engine plugin AnimationData
+LogPluginManager: Mounting Engine plugin AnimationModifierLibrary
+LogPluginManager: Mounting Engine plugin BlendSpaceMotionAnalysis
+LogPluginManager: Mounting Engine plugin ControlRig
+LogPluginManager: Mounting Engine plugin ControlRigModules
+LogPluginManager: Mounting Engine plugin ControlRigSpline
+LogPluginManager: Mounting Engine plugin DeformerGraph
+LogPluginManager: Mounting Engine plugin GameplayInsights
+LogPluginManager: Mounting Engine plugin IKRig
+LogPluginManager: Mounting Engine plugin RigLogic
+LogPluginManager: Mounting Engine plugin SkeletalMeshModelingTools
+LogPluginManager: Mounting Engine plugin TweeningUtils
+LogPluginManager: Mounting Engine plugin CameraShakePreviewer
+LogPluginManager: Mounting Engine plugin EngineCameras
+LogPluginManager: Mounting Engine plugin GameplayCameras
+LogPluginManager: Mounting Engine plugin OodleNetwork
+LogPluginManager: Mounting Engine plugin AnimationSharing
+LogPluginManager: Mounting Engine plugin CLionSourceCodeAccess
+LogPluginManager: Mounting Engine plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting Engine plugin DumpGPUServices
+LogPluginManager: Mounting Engine plugin GitSourceControl
+LogPluginManager: Mounting Engine plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting Engine plugin N10XSourceCodeAccess
+LogPluginManager: Mounting Engine plugin NamingTokens
+LogPluginManager: Mounting Engine plugin NullSourceCodeAccess
+LogPluginManager: Mounting Engine plugin PerforceSourceControl
+LogPluginManager: Mounting Engine plugin PixWinPlugin
+LogPluginManager: Mounting Engine plugin PlasticSourceControl
+LogPluginManager: Mounting Engine plugin PluginUtils
+LogPluginManager: Mounting Engine plugin ProjectLauncher
+LogPluginManager: Mounting Engine plugin PropertyAccessNode
+LogPluginManager: Mounting Engine plugin RenderDocPlugin
+LogPluginManager: Mounting Engine plugin RiderSourceCodeAccess
+LogPluginManager: Mounting Engine plugin SubversionSourceControl
+LogPluginManager: Mounting Engine plugin TextureFormatOodle
+LogPluginManager: Mounting Engine plugin UObjectPlugin
+LogPluginManager: Mounting Engine plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting Engine plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin AssetManagerEditor
+LogPluginManager: Mounting Engine plugin BlueprintHeaderView
+LogPluginManager: Mounting Engine plugin ChangelistReview
+LogPluginManager: Mounting Engine plugin ColorGrading
+LogPluginManager: Mounting Engine plugin CryptoKeys
+LogPluginManager: Mounting Engine plugin CurveEditorTools
+LogPluginManager: Mounting Engine plugin DataValidation
+LogPluginManager: Mounting Engine plugin EditorDebugTools
+LogPluginManager: Mounting Engine plugin EditorScriptingUtilities
+LogPluginManager: Mounting Engine plugin EngineAssetDefinitions
+LogPluginManager: Mounting Engine plugin FacialAnimation
+LogPluginManager: Mounting Engine plugin GameplayTagsEditor
+LogPluginManager: Mounting Engine plugin GeometryMode
+LogPluginManager: Mounting Engine plugin MacGraphicsSwitching
+LogPluginManager: Mounting Engine plugin MaterialAnalyzer
+LogPluginManager: Mounting Engine plugin MeshLODToolset
+LogPluginManager: Mounting Engine plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting Engine plugin ModelingToolsEditorMode
+LogPluginManager: Mounting Engine plugin PluginBrowser
+LogPluginManager: Mounting Engine plugin ProxyLODPlugin
+LogPluginManager: Mounting Engine plugin SequencerAnimTools
+LogPluginManager: Mounting Engine plugin SpeedTreeImporter
+LogPluginManager: Mounting Engine plugin StylusInput
+LogPluginManager: Mounting Engine plugin UMGWidgetPreview
+LogPluginManager: Mounting Engine plugin UVEditor
+LogPluginManager: Mounting Engine plugin WorldPartitionHLODUtilities
+LogPluginManager: Mounting Engine plugin DatasmithContent
+LogPluginManager: Mounting Engine plugin GLTFExporter
+LogPluginManager: Mounting Engine plugin VariantManager
+LogPluginManager: Mounting Engine plugin VariantManagerContent
+LogPluginManager: Mounting Engine plugin AdvancedRenamer
+LogPluginManager: Mounting Engine plugin AutomationUtils
+LogPluginManager: Mounting Engine plugin BackChannel
+LogPluginManager: Mounting Engine plugin ChaosCaching
+LogPluginManager: Mounting Engine plugin ChaosEditor
+LogPluginManager: Mounting Engine plugin ChaosNiagara
+LogPluginManager: Mounting Engine plugin ChaosSolverPlugin
+LogPluginManager: Mounting Engine plugin ChaosUserDataPT
+LogPluginManager: Mounting Engine plugin CharacterAI
+LogPluginManager: Mounting Engine plugin Dataflow
+LogPluginManager: Mounting Engine plugin EditorDataStorage
+LogPluginManager: Mounting Engine plugin EditorDataStorageFeatures
+LogPluginManager: Mounting Engine plugin EditorPerformance
+LogPluginManager: Mounting Engine plugin EditorTelemetry
+LogPluginManager: Mounting Engine plugin Fracture
+LogPluginManager: Mounting Engine plugin FullBodyIK
+LogPluginManager: Mounting Engine plugin GeometryCollectionPlugin
+LogPluginManager: Mounting Engine plugin GeometryDataflow
+LogPluginManager: Mounting Engine plugin GeometryFlow
+LogPluginManager: Mounting Engine plugin LevelSequenceNavigatorBridge
+LogPluginManager: Mounting Engine plugin LocalizableMessage
+LogPluginManager: Mounting Engine plugin LowLevelNetTrace
+LogPluginManager: Mounting Engine plugin MeshModelingToolsetExp
+LogPluginManager: Mounting Engine plugin NFORDenoise
+LogPluginManager: Mounting Engine plugin PlanarCut
+LogPluginManager: Mounting Engine plugin PlatformCrypto
+LogPluginManager: Mounting Engine plugin PythonScriptPlugin
+LogPluginManager: Mounting Engine plugin RuntimeTelemetry
+LogPluginManager: Mounting Engine plugin SequenceNavigator
+LogPluginManager: Mounting Engine plugin SkeletalReduction
+LogPluginManager: Mounting Engine plugin ToolPresets
+LogPluginManager: Mounting Engine plugin Cascade
+LogPluginManager: Mounting Engine plugin Niagara
+LogPluginManager: Mounting Engine plugin NiagaraSimCaching
+LogPluginManager: Mounting Engine plugin AlembicImporter
+LogPluginManager: Mounting Engine plugin InterchangeAssets
+LogPluginManager: Mounting Engine plugin InterchangeEditor
+LogPluginManager: Mounting Engine plugin Interchange
+LogPluginManager: Mounting Engine plugin AndroidMedia
+LogPluginManager: Mounting Engine plugin AvfMedia
+LogPluginManager: Mounting Engine plugin ImgMedia
+LogPluginManager: Mounting Engine plugin MediaCompositing
+LogPluginManager: Mounting Engine plugin MediaPlate
+LogPluginManager: Mounting Engine plugin MediaPlayerEditor
+LogPluginManager: Mounting Engine plugin WebMMedia
+LogPluginManager: Mounting Engine plugin WmfMedia
+LogPluginManager: Mounting Engine plugin TcpMessaging
+LogPluginManager: Mounting Engine plugin UdpMessaging
+LogPluginManager: Mounting Engine plugin MetaHumanSDK
+LogPluginManager: Mounting Engine plugin ActorSequence
+LogPluginManager: Mounting Engine plugin LevelSequenceEditor
+LogPluginManager: Mounting Engine plugin SequencerScripting
+LogPluginManager: Mounting Engine plugin TemplateSequence
+LogPluginManager: Mounting Engine plugin NNEDenoiser
+LogPluginManager: Mounting Engine plugin NNERuntimeORT
+LogPluginManager: Mounting Engine plugin EOSShared
+LogPluginManager: Mounting Engine plugin OnlineBase
+LogPluginManager: Mounting Engine plugin OnlineServices
+LogPluginManager: Mounting Engine plugin OnlineSubsystem
+LogPluginManager: Mounting Engine plugin OnlineSubsystemNull
+LogPluginManager: Mounting Engine plugin OnlineSubsystemUtils
+LogPluginManager: Mounting Engine plugin LauncherChunkInstaller
+LogPluginManager: Mounting Engine plugin ActorLayerUtilities
+LogPluginManager: Mounting Engine plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin AndroidFileServer
+LogPluginManager: Mounting Engine plugin AndroidMoviePlayer
+LogPluginManager: Mounting Engine plugin AndroidPermission
+LogPluginManager: Mounting Engine plugin AppleImageUtils
+LogPluginManager: Mounting Engine plugin AppleMoviePlayer
+LogPluginManager: Mounting Engine plugin ArchVisCharacter
+LogPluginManager: Mounting Engine plugin AssetTags
+LogPluginManager: Mounting Engine plugin AudioCapture
+LogPluginManager: Mounting Engine plugin AudioSynesthesia
+LogPluginManager: Mounting Engine plugin AudioWidgets
+LogPluginManager: Mounting Engine plugin CableComponent
+LogPluginManager: Mounting Engine plugin ChunkDownloader
+LogPluginManager: Mounting Engine plugin ComputeFramework
+LogPluginManager: Mounting Engine plugin CustomMeshComponent
+LogPluginManager: Mounting Engine plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin GameplayStateTree
+LogPluginManager: Mounting Engine plugin GeometryCache
+LogPluginManager: Mounting Engine plugin GeometryProcessing
+LogPluginManager: Mounting Engine plugin GoogleCloudMessaging
+LogPluginManager: Mounting Engine plugin GooglePAD
+LogPluginManager: Mounting Engine plugin HairStrands
+LogPluginManager: Mounting Engine plugin InputDebugging
+LogPluginManager: Mounting Engine plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LocationServicesBPLibrary
+LogPluginManager: Mounting Engine plugin MeshModelingToolset
+LogPluginManager: Mounting Engine plugin Metasound
+LogPluginManager: Mounting Engine plugin MobilePatchingUtils
+LogPluginManager: Mounting Engine plugin MsQuic
+LogPluginManager: Mounting Engine plugin ProceduralMeshComponent
+LogPluginManager: Mounting Engine plugin PropertyAccessEditor
+LogPluginManager: Mounting Engine plugin PropertyBindingUtils
+LogPluginManager: Mounting Engine plugin ResonanceAudio
+LogPluginManager: Mounting Engine plugin RigVM
+LogPluginManager: Mounting Engine plugin SignificanceManager
+LogPluginManager: Mounting Engine plugin SoundFields
+LogPluginManager: Mounting Engine plugin StateTree
+LogPluginManager: Mounting Engine plugin Synthesis
+LogPluginManager: Mounting Engine plugin WaveTable
+LogPluginManager: Mounting Engine plugin WebMMoviePlayer
+LogPluginManager: Mounting Engine plugin WindowsDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin WindowsMoviePlayer
+LogPluginManager: Mounting Engine plugin InterchangeTests
+LogPluginManager: Mounting Engine plugin CameraCalibrationCore
+LogPluginManager: Mounting Engine plugin Takes
+LogPluginManager: Mounting Engine plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting Engine plugin PortableObjectFileDataSource
+LogPluginManager: Mounting Engine plugin LightMixer
+LogPluginManager: Mounting Engine plugin ObjectMixer
+LogPluginManager: Mounting Engine plugin BaseCharacterFXEditor
+LogPluginManager: Mounting Engine plugin CompositeCore
+LogPluginManager: Mounting Engine plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting Engine plugin OnlineSubsystemIOS
+LogPluginManager: Mounting Engine plugin XInputDevice
+SourceControl: Revision control is disabled
+SourceControl: Revision control is disabled
+SourceControl: Revision control is disabled
+LogWindows: Failed to load 'WinPixGpuCapturer.dll' (GetLastError=126)
+LogWindows: File 'WinPixGpuCapturer.dll' does not exist
+PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+LogConfig: Applying CVar settings from Section [/Script/RenderDocPlugin.RenderDocPluginSettings] File [Engine]
+RenderDocPlugin: Display: RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
+LogNFORDenoise: NFORDenoise function starting up
+LogStudioTelemetry: Started StudioTelemetry Session
+LogEOSShared: Loaded "C:/Program Files/Epic Games/UE_5.6/Engine/Binaries/Win64/EOSSDK-Win64-Shipping.dll"
+LogEOSShared: FEOSSDKManager::Initialize Initializing EOSSDK Version:1.17.0-41373641
+LogInit: Using libcurl 8.12.1
+LogInit:  - built for Windows
+LogInit:  - supports SSL with OpenSSL/1.1.1t
+LogInit:  - supports HTTP deflate (compression) using libz 1.3
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_TLSAUTH_SRP
+LogInit:      CURL_VERSION_HTTP2
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: CreateHttpThread using FCurlMultiPollEventLoopHttpThread
+LogInit: Creating http thread with maximum 256 concurrent requests
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: Created online subsystem instance for: NULL
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+LogConfig: Applying CVar settings from Section [/Script/CompositeCore.CompositeCorePluginSettings] File [Engine]
+LogInit: ExecutableName: UnrealEditor.exe
+LogInit: Build: ++UE5+Release-5.6-CL-44394996
+LogInit: Platform=WindowsEditor
+LogInit: MachineId=a3694d144fbaba090c2f43b0ddaceea8
+LogInit: DeviceId=
+LogInit: Engine Version: 5.6.1-44394996+++UE5+Release-5.6
+LogInit: Compatible Engine Version: 5.6.0-43139311+++UE5+Release-5.6
+LogInit: Net CL: 43139311
+LogInit: OS: Windows 11 (24H2) [10.0.26100.7840] (), CPU: AMD Ryzen 7 7435HS                             , GPU: NVIDIA GeForce RTX 4050 Laptop GPU
+LogInit: Compiled (64-bit): Jul 28 2025 20:53:34
+LogInit: Architecture: x64
+LogInit: Compiled with Visual C++: 19.38.33130.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE5+Release-5.6
+LogInit: Command Line: Lobby_lvl -server -log -nosteam
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_5.6/Engine/Binaries/Win64/
+LogInit: Allocator: Mimalloc
+LogInit: Installed Engine Build: 1
+LogInit: This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+LogDevObjectVersion: Number of dev versions registered: 37
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 20
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 49
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 207
+LogDevObjectVersion:   FortniteValkyrie (8DBC2C5B-54A7-43E0-A768-FCBB7DA29060): 8
+LogDevObjectVersion:   FortniteSeason (5B4C06B7-2463-4AF8-805B-BF70CDF5D0DD): 13
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 11
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   UE5-Main (697DD581-E64F-41AB-AA4A-51ECBEB7B628): 121
+LogDevObjectVersion:   UE5-Release (D89B5E42-24BD-4D46-8412-ACA8DF641779): 56
+LogDevObjectVersion:   UE5-SpecialProject (59DA5D52-1232-4948-B878-597870B8E98B): 9
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogDevObjectVersion:   Dev-NaniteResearch (30D58BE3-95EA-4282-A6E3-B159D8EBB06A): 1
+LogDevObjectVersion:   Dev-ComputeFramework (6304A3E7-0059-4F59-8CFC-21BD7721FD4E): 0
+LogDevObjectVersion:   LensFileVersion (8652A554-966A-466C-9FD7-1C6DD61B1ADB): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC.
+LogInit: Object subsystem initialized
+LogConfig: Set CVar [[con.DebugEarlyDefault:1]]
+LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+LogConfig: Set CVar [[r.setres:1280x720]]
+LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+LogConfig: Set CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
+LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+LogConfig: CVar [[r.Occlusion.SingleRHIThreadStall:1]] deferred - dummy variable created
+LogConfig: Set CVar [[r.Nanite.Streaming.ReservedResources:1]]
+LogConfig: CVar [[D3D12.Bindless.ResourceDescriptorHeapSize:32768]] deferred - dummy variable created
+LogConfig: CVar [[D3D12.Bindless.SamplerDescriptorHeapSize:2048]] deferred - dummy variable created
+LogConfig: Set CVar [[r.PSOPrecache.GlobalShaders:1]]
+LogConfig: Set CVar [[r.VRS.EnableSoftware:1]]
+LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
+[2026.02.18-17.40.51:490][  0]LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+[2026.02.18-17.40.51:491][  0]LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+[2026.02.18-17.40.51:491][  0]LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+[2026.02.18-17.40.51:491][  0]LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+[2026.02.18-17.40.51:491][  0]LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+[2026.02.18-17.40.51:491][  0]LogConfig: CVar [[r.Occlusion.SingleRHIThreadStall:1]] deferred - dummy variable created
+[2026.02.18-17.40.51:491][  0]LogConfig: CVar [[D3D12.Bindless.ResourceDescriptorHeapSize:32768]] deferred - dummy variable created
+[2026.02.18-17.40.51:491][  0]LogConfig: CVar [[D3D12.Bindless.SamplerDescriptorHeapSize:2048]] deferred - dummy variable created
+[2026.02.18-17.40.51:491][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [Engine]
+[2026.02.18-17.40.51:491][  0]LogConfig: CVar [[VisualizeCalibrationColorMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationColor.PPM_DefaultCalibrationColor]] deferred - dummy variable created
+[2026.02.18-17.40.51:491][  0]LogConfig: CVar [[VisualizeCalibrationGrayscaleMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale.PPM_DefaultCalibrationGrayscale]] deferred - dummy variable created
+[2026.02.18-17.40.51:491][  0]LogConfig: Set CVar [[r.GPUCrashDebugging:0]]
+[2026.02.18-17.40.51:491][  0]LogConfig: CVar [[MaxSkinBones:(Default=65536,PerPlatform=(("Mobile", 256)))]] deferred - dummy variable created
+[2026.02.18-17.40.51:491][  0]LogConfig: Set CVar [[r.Shaders.RemoveUnusedInterpolators:1]]
+[2026.02.18-17.40.51:491][  0]LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
+[2026.02.18-17.40.51:491][  0]LogConfig: Set CVar [[r.ReflectionMethod:1]]
+[2026.02.18-17.40.51:492][  0]LogConfig: Set CVar [[r.GenerateMeshDistanceFields:1]]
+[2026.02.18-17.40.51:494][  0]LogConfig: Set CVar [[r.DynamicGlobalIlluminationMethod:1]]
+[2026.02.18-17.40.51:494][  0]LogConfig: Set CVar [[r.Lumen.TraceMeshSDFs:0]]
+[2026.02.18-17.40.51:494][  0]LogConfig: Set CVar [[r.Shadow.Virtual.Enable:1]]
+[2026.02.18-17.40.51:494][  0]LogConfig: Set CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2026.02.18-17.40.51:494][  0]LogConfig: Set CVar [[r.AllowStaticLighting:0]]
+[2026.02.18-17.40.51:494][  0]LogConfig: Set CVar [[r.SkinCache.CompileShaders:1]]
+[2026.02.18-17.40.51:494][  0]LogConfig: Set CVar [[r.RayTracing:1]]
+[2026.02.18-17.40.51:494][  0]LogConfig: Set CVar [[r.RayTracing.RayTracingProxies.ProjectEnabled:1]]
+[2026.02.18-17.40.51:494][  0]LogConfig: Set CVar [[r.DefaultFeature.LocalExposure.HighlightContrastScale:0.8]]
+[2026.02.18-17.40.51:494][  0]LogConfig: Set CVar [[r.DefaultFeature.LocalExposure.ShadowContrastScale:0.8]]
+[2026.02.18-17.40.51:495][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [Engine]
+[2026.02.18-17.40.51:495][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [Engine]
+[2026.02.18-17.40.51:495][  0]LogConfig: Set CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2026.02.18-17.40.51:495][  0]LogConfig: Set CVar [[s.AsyncLoadingThreadEnabled:1]]
+[2026.02.18-17.40.51:495][  0]LogConfig: Set CVar [[s.EventDrivenLoaderEnabled:1]]
+[2026.02.18-17.40.51:495][  0]LogConfig: Set CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2026.02.18-17.40.51:495][  0]LogConfig: Set CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2026.02.18-17.40.51:495][  0]LogConfig: Set CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2026.02.18-17.40.51:495][  0]LogConfig: Set CVar [[s.UseBackgroundLevelStreaming:1]]
+[2026.02.18-17.40.51:495][  0]LogConfig: Set CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2026.02.18-17.40.51:495][  0]LogConfig: Set CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2026.02.18-17.40.51:495][  0]LogConfig: Set CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2026.02.18-17.40.51:495][  0]LogConfig: Set CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2026.02.18-17.40.51:495][  0]LogConfig: Set CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2026.02.18-17.40.51:495][  0]LogConfig: Set CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2026.02.18-17.40.51:495][  0]LogConfig: CVar [[s.MaxPackageSummarySize:16384]] deferred - dummy variable created
+[2026.02.18-17.40.51:496][  0]LogConfig: Set CVar [[s.FlushStreamingOnExit:1]]
+[2026.02.18-17.40.51:496][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__SoundBase]] deferred - dummy variable created
+[2026.02.18-17.40.51:496][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__MaterialInterface]] deferred - dummy variable created
+[2026.02.18-17.40.51:496][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__DeviceProfileManager]] deferred - dummy variable created
+[2026.02.18-17.40.51:496][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [Engine]
+[2026.02.18-17.40.51:496][  0]LogConfig: Set CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2026.02.18-17.40.51:496][  0]LogConfig: Set CVar [[gc.FlushStreamingOnGC:0]]
+[2026.02.18-17.40.51:496][  0]LogConfig: Set CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2026.02.18-17.40.51:496][  0]LogConfig: Set CVar [[gc.AllowParallelGC:1]]
+[2026.02.18-17.40.51:496][  0]LogConfig: Set CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2026.02.18-17.40.51:496][  0]LogConfig: Set CVar [[gc.MaxObjectsInEditor:25165824]]
+[2026.02.18-17.40.51:496][  0]LogConfig: Set CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2026.02.18-17.40.51:496][  0]LogConfig: Set CVar [[gc.CreateGCClusters:1]]
+[2026.02.18-17.40.51:496][  0]LogConfig: Set CVar [[gc.MinGCClusterSize:5]]
+[2026.02.18-17.40.51:496][  0]LogConfig: Set CVar [[gc.AssetClustreringEnabled:0]]
+[2026.02.18-17.40.51:496][  0]LogConfig: Set CVar [[gc.ActorClusteringEnabled:0]]
+[2026.02.18-17.40.51:496][  0]LogConfig: Set CVar [[gc.VerifyUObjectsAreNotFGCObjects:0]]
+[2026.02.18-17.40.51:496][  0]LogConfig: Set CVar [[gc.GarbageEliminationEnabled:1]]
+[2026.02.18-17.40.51:496][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [Engine]
+[2026.02.18-17.40.51:496][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Average",ToolTip="Simulates average internet conditions")]] deferred - dummy variable created
+[2026.02.18-17.40.51:497][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Bad",ToolTip="Simulates laggy internet conditions")]] deferred - dummy variable created
+[2026.02.18-17.40.51:497][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [Engine]
+[2026.02.18-17.40.51:497][  0]LogConfig: CVar [[DefaultASTCQualityBySpeed:2]] deferred - dummy variable created
+[2026.02.18-17.40.51:497][  0]LogConfig: CVar [[DefaultASTCQualityBySize:3]] deferred - dummy variable created
+[2026.02.18-17.40.51:497][  0]LogConfig: CVar [[DefaultASTCQualityBySizeHQ:4]] deferred - dummy variable created
+[2026.02.18-17.40.51:497][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:WidgetBlueprint]] deferred - dummy variable created
+[2026.02.18-17.40.51:497][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GroupActor]] deferred - dummy variable created
+[2026.02.18-17.40.51:497][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MetaData]] deferred - dummy variable created
+[2026.02.18-17.40.51:497][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ObjectRedirector]] deferred - dummy variable created
+[2026.02.18-17.40.51:497][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NavMeshRenderingComponent]] deferred - dummy variable created
+[2026.02.18-17.40.51:497][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ReflectionCaptureComponent]] deferred - dummy variable created
+[2026.02.18-17.40.51:497][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:TextRenderComponent]] deferred - dummy variable created
+[2026.02.18-17.40.51:497][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:Font]] deferred - dummy variable created
+[2026.02.18-17.40.51:497][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:InterpCurveEdSetup]] deferred - dummy variable created
+[2026.02.18-17.40.51:497][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MaterialExpression]] deferred - dummy variable created
+[2026.02.18-17.40.51:497][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraEmitter]] deferred - dummy variable created
+[2026.02.18-17.40.51:497][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraScript]] deferred - dummy variable created
+[2026.02.18-17.40.51:497][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleEmitter]] deferred - dummy variable created
+[2026.02.18-17.40.51:497][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleLODLevel]] deferred - dummy variable created
+[2026.02.18-17.40.51:497][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleModule]] deferred - dummy variable created
+[2026.02.18-17.40.51:497][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SubUVAnimation]] deferred - dummy variable created
+[2026.02.18-17.40.51:498][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SoundNode]] deferred - dummy variable created
+[2026.02.18-17.40.51:498][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GameplayEffectUIData]] deferred - dummy variable created
+[2026.02.18-17.40.51:498][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:AmbientSound]] deferred - dummy variable created
+[2026.02.18-17.40.51:498][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:WidgetBlueprint]] deferred - dummy variable created
+[2026.02.18-17.40.51:498][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:GroupActor]] deferred - dummy variable created
+[2026.02.18-17.40.51:498][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:MetaData]] deferred - dummy variable created
+[2026.02.18-17.40.51:498][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:ObjectRedirector]] deferred - dummy variable created
+[2026.02.18-17.40.51:498][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:InterpCurveEdSetup]] deferred - dummy variable created
+[2026.02.18-17.40.51:498][  0]LogConfig: CVar [[VersionedIntRValues:r.AllowStaticLighting]] deferred - dummy variable created
+[2026.02.18-17.40.51:498][  0]LogConfig: CVar [[VersionedIntRValues:r.MaterialEditor.LWCTruncateMode]] deferred - dummy variable created
+[2026.02.18-17.40.51:498][  0]LogConfig: CVar [[VersionedIntRValues:r.GBuffer]] deferred - dummy variable created
+[2026.02.18-17.40.51:498][  0]LogConfig: CVar [[VersionedIntRValues:r.VelocityOutputPass]] deferred - dummy variable created
+[2026.02.18-17.40.51:498][  0]LogConfig: CVar [[VersionedIntRValues:r.SelectiveBasePassOutputs]] deferred - dummy variable created
+[2026.02.18-17.40.51:498][  0]LogConfig: CVar [[VersionedIntRValues:r.DBuffer]] deferred - dummy variable created
+[2026.02.18-17.40.51:498][  0]LogConfig: CVar [[VersionedIntRValues:r.Mobile.DBuffer]] deferred - dummy variable created
+[2026.02.18-17.40.51:498][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Symbols]] deferred - dummy variable created
+[2026.02.18-17.40.51:498][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.GenerateSymbols]] deferred - dummy variable created
+[2026.02.18-17.40.51:498][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.WriteSymbols]] deferred - dummy variable created
+[2026.02.18-17.40.51:498][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.AllowUniqueSymbols]] deferred - dummy variable created
+[2026.02.18-17.40.51:500][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.ExtraData]] deferred - dummy variable created
+[2026.02.18-17.40.51:500][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Optimize]] deferred - dummy variable created
+[2026.02.18-17.40.51:500][  0]LogConfig: CVar [[VersionedIntRValues:r.CompileShadersForDevelopment]] deferred - dummy variable created
+[2026.02.18-17.40.51:500][  0]LogConfig: CVar [[VersionedIntRValues:r.MobileHDR]] deferred - dummy variable created
+[2026.02.18-17.40.51:500][  0]LogConfig: CVar [[VersionedIntRValues:r.UsePreExposure]] deferred - dummy variable created
+[2026.02.18-17.40.51:500][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [Scalability]
+[2026.02.18-17.40.51:500][  0]LogConfig: Set CVar [[r.SkeletalMeshLODBias:0]]
+[2026.02.18-17.40.51:500][  0]LogConfig: Set CVar [[r.ViewDistanceScale:1.0]]
+[2026.02.18-17.40.51:500][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [Scalability]
+[2026.02.18-17.40.51:500][  0]LogConfig: Set CVar [[r.FXAA.Quality:4]]
+[2026.02.18-17.40.51:500][  0]LogConfig: Set CVar [[r.TemporalAA.Quality:2]]
+[2026.02.18-17.40.51:500][  0]LogConfig: Set CVar [[r.TSR.History.R11G11B10:1]]
+[2026.02.18-17.40.51:500][  0]LogConfig: Set CVar [[r.TSR.History.ScreenPercentage:200]]
+[2026.02.18-17.40.51:500][  0]LogConfig: Set CVar [[r.TSR.History.UpdateQuality:3]]
+[2026.02.18-17.40.51:501][  0]LogConfig: Set CVar [[r.TSR.ShadingRejection.Flickering:1]]
+[2026.02.18-17.40.51:501][  0]LogConfig: Set CVar [[r.TSR.RejectionAntiAliasingQuality:2]]
+[2026.02.18-17.40.51:501][  0]LogConfig: Set CVar [[r.TSR.ReprojectionField:1]]
+[2026.02.18-17.40.51:501][  0]LogConfig: Set CVar [[r.TSR.Resurrection:1]]
+[2026.02.18-17.40.51:501][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [Scalability]
+[2026.02.18-17.40.51:501][  0]LogConfig: Set CVar [[r.LightFunctionQuality:1]]
+[2026.02.18-17.40.51:501][  0]LogConfig: Set CVar [[r.ShadowQuality:5]]
+[2026.02.18-17.40.51:501][  0]LogConfig: Set CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2026.02.18-17.40.51:501][  0]LogConfig: Set CVar [[r.Shadow.MaxResolution:2048]]
+[2026.02.18-17.40.51:501][  0]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2026.02.18-17.40.51:501][  0]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2026.02.18-17.40.51:501][  0]LogConfig: Set CVar [[r.Shadow.DistanceScale:1.0]]
+[2026.02.18-17.40.51:501][  0]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2026.02.18-17.40.51:501][  0]LogConfig: Set CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2026.02.18-17.40.51:501][  0]LogConfig: Set CVar [[r.DistanceFieldShadowing:1]]
+[2026.02.18-17.40.51:501][  0]LogConfig: Set CVar [[r.VolumetricFog:1]]
+[2026.02.18-17.40.51:501][  0]LogConfig: Set CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2026.02.18-17.40.51:501][  0]LogConfig: Set CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2026.02.18-17.40.51:501][  0]LogConfig: Set CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2026.02.18-17.40.51:501][  0]LogConfig: Set CVar [[r.LightMaxDrawDistanceScale:1]]
+[2026.02.18-17.40.51:501][  0]LogConfig: Set CVar [[r.CapsuleShadows:1]]
+[2026.02.18-17.40.51:501][  0]LogConfig: Set CVar [[r.Shadow.Virtual.MaxPhysicalPages:4096]]
+[2026.02.18-17.40.51:501][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectional:-1.5]]
+[2026.02.18-17.40.51:501][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectionalMoving:-1.5]]
+[2026.02.18-17.40.51:501][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocal:0.0]]
+[2026.02.18-17.40.51:501][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocalMoving:1.0]]
+[2026.02.18-17.40.51:501][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:8]]
+[2026.02.18-17.40.51:502][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:4]]
+[2026.02.18-17.40.51:502][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:8]]
+[2026.02.18-17.40.51:502][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayLocal:4]]
+[2026.02.18-17.40.51:502][  0]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@3] File [Scalability]
+[2026.02.18-17.40.51:502][  0]LogConfig: Set CVar [[r.DistanceFieldAO:1]]
+[2026.02.18-17.40.51:502][  0]LogConfig: Set CVar [[r.SkylightIntensityMultiplier:1.0]]
+[2026.02.18-17.40.51:502][  0]LogConfig: Set CVar [[r.AOQuality:2]]
+[2026.02.18-17.40.51:502][  0]LogConfig: Set CVar [[r.Lumen.DiffuseIndirect.Allow:1]]
+[2026.02.18-17.40.51:502][  0]LogConfig: Set CVar [[r.LumenScene.DirectLighting.MaxLightsPerTile:8]]
+[2026.02.18-17.40.51:502][  0]LogConfig: Set CVar [[r.LumenScene.DirectLighting.UpdateFactor:32]]
+[2026.02.18-17.40.51:502][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.UpdateFactor:64]]
+[2026.02.18-17.40.51:502][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.ProbeSpacing:4]]
+[2026.02.18-17.40.51:502][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.HemisphereProbeResolution:4]]
+[2026.02.18-17.40.51:502][  0]LogConfig: Set CVar [[r.Lumen.TraceMeshSDFs.Allow:1]]
+[2026.02.18-17.40.51:503][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.ProbeResolution:32]]
+[2026.02.18-17.40.51:503][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.NumProbesToTraceBudget:100]]
+[2026.02.18-17.40.51:503][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.DownsampleFactor:16]]
+[2026.02.18-17.40.51:503][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.NumAdaptiveProbes:8]]
+[2026.02.18-17.40.51:503][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TracingOctahedronResolution:8]]
+[2026.02.18-17.40.51:503][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.IrradianceFormat:0]]
+[2026.02.18-17.40.51:503][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.StochasticInterpolation:0]]
+[2026.02.18-17.40.51:503][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.FullResolutionJitterWidth:1]]
+[2026.02.18-17.40.51:503][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TwoSidedFoliageBackfaceDiffuse:1]]
+[2026.02.18-17.40.51:503][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ScreenTraces.HZBTraversal.FullResDepth:1]]
+[2026.02.18-17.40.51:503][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ShortRangeAO.HardwareRayTracing:0]]
+[2026.02.18-17.40.51:503][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ShortRangeAO.BentNormal:1]]
+[2026.02.18-17.40.51:503][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.GridPixelSize:32]]
+[2026.02.18-17.40.51:503][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TraceFromVolume:1]]
+[2026.02.18-17.40.51:503][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TracingOctahedronResolution:3]]
+[2026.02.18-17.40.51:503][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.ProbeResolution:8]]
+[2026.02.18-17.40.51:503][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.NumProbesToTraceBudget:70]]
+[2026.02.18-17.40.51:503][  0]LogConfig: Set CVar [[r.RayTracing.Scene.BuildMode:1]]
+[2026.02.18-17.40.51:503][  0]LogConfig: Applying CVar settings from Section [ReflectionQuality@3] File [Scalability]
+[2026.02.18-17.40.51:503][  0]LogConfig: Set CVar [[r.SSR.Quality:3]]
+[2026.02.18-17.40.51:504][  0]LogConfig: Set CVar [[r.SSR.HalfResSceneColor:0]]
+[2026.02.18-17.40.51:504][  0]LogConfig: Set CVar [[r.Lumen.Reflections.Allow:1]]
+[2026.02.18-17.40.51:504][  0]LogConfig: Set CVar [[r.Lumen.Reflections.DownsampleFactor:1]]
+[2026.02.18-17.40.51:504][  0]LogConfig: Set CVar [[r.Lumen.Reflections.MaxRoughnessToTraceForFoliage:0.4]]
+[2026.02.18-17.40.51:504][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.MaxRoughnessToEvaluateRoughSpecularForFoliage:0.8]]
+[2026.02.18-17.40.51:504][  0]LogConfig: Set CVar [[r.Lumen.Reflections.ScreenSpaceReconstruction.NumSamples:5]]
+[2026.02.18-17.40.51:504][  0]LogConfig: Set CVar [[r.Lumen.Reflections.ScreenSpaceReconstruction.MinWeight:0]]
+[2026.02.18-17.40.51:504][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Allow:1]]
+[2026.02.18-17.40.51:504][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Enable:0]]
+[2026.02.18-17.40.51:504][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [Scalability]
+[2026.02.18-17.40.51:504][  0]LogConfig: Set CVar [[r.MotionBlurQuality:4]]
+[2026.02.18-17.40.51:504][  0]LogConfig: Set CVar [[r.MotionBlur.HalfResGather:0]]
+[2026.02.18-17.40.51:504][  0]LogConfig: Set CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2026.02.18-17.40.51:504][  0]LogConfig: Set CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2026.02.18-17.40.51:504][  0]LogConfig: Set CVar [[r.AmbientOcclusionLevels:-1]]
+[2026.02.18-17.40.51:504][  0]LogConfig: Set CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2026.02.18-17.40.51:504][  0]LogConfig: Set CVar [[r.DepthOfFieldQuality:2]]
+[2026.02.18-17.40.51:504][  0]LogConfig: Set CVar [[r.RenderTargetPoolMin:400]]
+[2026.02.18-17.40.51:504][  0]LogConfig: Set CVar [[r.LensFlareQuality:2]]
+[2026.02.18-17.40.51:504][  0]LogConfig: Set CVar [[r.SceneColorFringeQuality:1]]
+[2026.02.18-17.40.51:504][  0]LogConfig: Set CVar [[r.EyeAdaptationQuality:2]]
+[2026.02.18-17.40.51:504][  0]LogConfig: Set CVar [[r.BloomQuality:5]]
+[2026.02.18-17.40.51:504][  0]LogConfig: Set CVar [[r.Bloom.ScreenPercentage:50.000]]
+[2026.02.18-17.40.51:504][  0]LogConfig: Set CVar [[r.FastBlurThreshold:100]]
+[2026.02.18-17.40.51:504][  0]LogConfig: Set CVar [[r.Upscale.Quality:3]]
+[2026.02.18-17.40.51:504][  0]LogConfig: Set CVar [[r.LightShaftQuality:1]]
+[2026.02.18-17.40.51:504][  0]LogConfig: Set CVar [[r.Filter.SizeScale:1]]
+[2026.02.18-17.40.51:504][  0]LogConfig: Set CVar [[r.Tonemapper.Quality:5]]
+[2026.02.18-17.40.51:506][  0]LogConfig: Set CVar [[r.DOF.Gather.ResolutionDivisor:2         ; lower gathering resolution]]
+[2026.02.18-17.40.51:506][  0]LogConfig: Set CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2026.02.18-17.40.51:506][  0]LogConfig: Set CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2026.02.18-17.40.51:506][  0]LogConfig: Set CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2026.02.18-17.40.51:506][  0]LogConfig: Set CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2026.02.18-17.40.51:506][  0]LogConfig: Set CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2026.02.18-17.40.51:506][  0]LogConfig: Set CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2026.02.18-17.40.51:506][  0]LogConfig: Set CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2026.02.18-17.40.51:506][  0]LogConfig: Set CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2026.02.18-17.40.51:506][  0]LogConfig: Set CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2026.02.18-17.40.51:506][  0]LogConfig: Set CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2026.02.18-17.40.51:506][  0]LogConfig: Set CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2026.02.18-17.40.51:506][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2026.02.18-17.40.51:506][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2026.02.18-17.40.51:506][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [Scalability]
+[2026.02.18-17.40.51:506][  0]LogConfig: Set CVar [[r.Streaming.MipBias:0]]
+[2026.02.18-17.40.51:506][  0]LogConfig: Set CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2026.02.18-17.40.51:507][  0]LogConfig: Set CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2026.02.18-17.40.51:508][  0]LogConfig: Set CVar [[r.Streaming.Boost:1]]
+[2026.02.18-17.40.51:508][  0]LogConfig: Set CVar [[r.MaxAnisotropy:8]]
+[2026.02.18-17.40.51:508][  0]LogConfig: Set CVar [[r.VT.MaxAnisotropy:8]]
+[2026.02.18-17.40.51:508][  0]LogConfig: Set CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2026.02.18-17.40.51:509][  0]LogConfig: Set CVar [[r.Streaming.PoolSize:1000]]
+[2026.02.18-17.40.51:509][  0]LogConfig: Set CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2026.02.18-17.40.51:509][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [Scalability]
+[2026.02.18-17.40.51:509][  0]LogConfig: Set CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2026.02.18-17.40.51:509][  0]LogConfig: Set CVar [[r.RefractionQuality:2]]
+[2026.02.18-17.40.51:509][  0]LogConfig: Set CVar [[r.SceneColorFormat:4]]
+[2026.02.18-17.40.51:509][  0]LogConfig: Set CVar [[r.DetailMode:3]]
+[2026.02.18-17.40.51:509][  0]LogConfig: Set CVar [[r.TranslucencyVolumeBlur:1]]
+[2026.02.18-17.40.51:509][  0]LogConfig: Set CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2026.02.18-17.40.51:509][  0]LogConfig: Set CVar [[r.SSS.Scale:1]]
+[2026.02.18-17.40.51:509][  0]LogConfig: Set CVar [[r.SSS.SampleSet:2]]
+[2026.02.18-17.40.51:509][  0]LogConfig: Set CVar [[r.SSS.Quality:1]]
+[2026.02.18-17.40.51:509][  0]LogConfig: Set CVar [[r.SSS.HalfRes:0]]
+[2026.02.18-17.40.51:510][  0]LogConfig: Set CVar [[r.SSGI.Quality:3]]
+[2026.02.18-17.40.51:510][  0]LogConfig: Set CVar [[r.EmitterSpawnRateScale:1.0]]
+[2026.02.18-17.40.51:510][  0]LogConfig: Set CVar [[r.ParticleLightQuality:2]]
+[2026.02.18-17.40.51:510][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2026.02.18-17.40.51:510][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2026.02.18-17.40.51:510][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2026.02.18-17.40.51:510][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2026.02.18-17.40.51:510][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2026.02.18-17.40.51:510][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2026.02.18-17.40.51:510][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2026.02.18-17.40.51:510][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2026.02.18-17.40.51:510][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2026.02.18-17.40.51:510][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2026.02.18-17.40.51:510][  0]LogConfig: Set CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2026.02.18-17.40.51:510][  0]LogConfig: Set CVar [[fx.Niagara.QualityLevel:3]]
+[2026.02.18-17.40.51:510][  0]LogConfig: Set CVar [[r.Refraction.OffsetQuality:1]]
+[2026.02.18-17.40.51:510][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.DownsampleFactor:2]]
+[2026.02.18-17.40.51:510][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.MaxStepCount:256]]
+[2026.02.18-17.40.51:510][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.Shadows.Resolution:256]]
+[2026.02.18-17.40.51:510][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.Shadows.MaxSampleCount:8]]
+[2026.02.18-17.40.51:511][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.UseExistenceMask:0]]
+[2026.02.18-17.40.51:511][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [Scalability]
+[2026.02.18-17.40.51:511][  0]LogConfig: Set CVar [[foliage.DensityScale:1.0]]
+[2026.02.18-17.40.51:511][  0]LogConfig: Set CVar [[grass.DensityScale:1.0]]
+[2026.02.18-17.40.51:511][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [Scalability]
+[2026.02.18-17.40.51:511][  0]LogConfig: Set CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2026.02.18-17.40.51:511][  0]LogConfig: Set CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2026.02.18-17.40.51:511][  0]LogConfig: Set CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2026.02.18-17.40.51:511][  0]LogConfig: Set CVar [[r.AnisotropicMaterials:1]]
+[2026.02.18-17.40.51:511][  0]LogConfig: Applying CVar settings from Section [LandscapeQuality@3] File [Scalability]
+[2026.02.18-17.40.51:511][  0]LogInit: Selected Device Profile: [WindowsEditor]
+[2026.02.18-17.40.51:511][  0]LogHAL: Display: Platform has ~ 16 GB [16989728768 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2026.02.18-17.40.51:512][  0]LogDeviceProfileManager: Going up to parent DeviceProfile [Windows]
+[2026.02.18-17.40.51:512][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2026.02.18-17.40.51:512][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[UI.SlateSDFText.RasterizationMode:Bitmap -> Msdf]]
+[2026.02.18-17.40.51:512][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[UI.SlateSDFText.ResolutionLevel:2 -> 2]]
+[2026.02.18-17.40.51:512][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2026.02.18-17.40.51:512][  0]LogConfig: Set CVar [[r.DumpShaderDebugInfo:2]]
+[2026.02.18-17.40.51:512][  0]LogConfig: Set CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2026.02.18-17.40.51:512][  0]LogConfig: Set CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2026.02.18-17.40.51:512][  0]LogConfig: CVar [[ds.CADTranslator.Meshing.ActivateThinZoneMeshing:0]] deferred - dummy variable created
+[2026.02.18-17.40.51:512][  0]LogConfig: CVar [[ds.CADTranslator.Stitching.RemoveThinFaces:0]] deferred - dummy variable created
+[2026.02.18-17.40.51:512][  0]LogConfig: Applying CVar settings from Section [Startup_Windows] File [../../../Engine/Config/ConsoleVariables.ini]
+[2026.02.18-17.40.51:512][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+[2026.02.18-17.40.51:513][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/user/Documents/GitHub/UnrealMultiplayer/Multiplayer/Saved/Config/WindowsEditor/Editor.ini]
+[2026.02.18-17.40.51:513][  0]LogInit: Computer: DESKTOP-A8QTU1U
+[2026.02.18-17.40.51:513][  0]LogInit: User: user
+[2026.02.18-17.40.51:513][  0]LogInit: CPU Page size=4096, Cores=8
+[2026.02.18-17.40.51:513][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2026.02.18-17.40.51:513][  0]LogMemory: Process is running as part of a Windows Job with separate resource limits
+[2026.02.18-17.40.51:513][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx) Virtual=24.8GB
+[2026.02.18-17.40.51:513][  0]LogMemory: Platform Memory Stats for WindowsEditor
+[2026.02.18-17.40.51:513][  0]LogMemory: Process Physical Memory: 543.74 MB used, 543.74 MB peak
+[2026.02.18-17.40.51:513][  0]LogMemory: Process Virtual Memory: 471.68 MB used, 471.68 MB peak
+[2026.02.18-17.40.51:513][  0]LogMemory: Physical Memory: 11567.65 MB used,  4635.02 MB free, 16202.67 MB total
+[2026.02.18-17.40.51:513][  0]LogMemory: Virtual Memory: 20004.84 MB used,  5413.82 MB free, 25418.67 MB total
+[2026.02.18-17.40.51:513][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2026.02.18-17.40.51:515][  0]LogWindows: WindowsPlatformFeatures disabled or dedicated server build
+[2026.02.18-17.40.51:517][  0]LogChaosDD: Chaos Debug Draw Startup
+[2026.02.18-17.40.51:517][  0]LogInit: Physics initialised using underlying interface: Chaos
+[2026.02.18-17.40.51:517][  0]LogInit: Using OS detected language (es-ES).
+[2026.02.18-17.40.51:517][  0]LogInit: Using OS detected locale (es-ES).
+[2026.02.18-17.40.51:522][  0]LogTextLocalizationManager: No specific localization for 'es-ES' exists, so 'es' will be used for the language.
+[2026.02.18-17.40.51:928][  0]LogObj: Display: Attempting to load config data for Default__SlateThemeManager before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+[2026.02.18-17.40.51:958][  0]LogVRS: Current RHI does not support Variable Rate Shading
+[2026.02.18-17.40.51:959][  0]LogCsvProfiler: Display: Metadata set : verbatimrhiname="Null"
+[2026.02.18-17.40.51:959][  0]LogCsvProfiler: Display: Metadata set : rhiname="Null"
+[2026.02.18-17.40.51:959][  0]LogCsvProfiler: Display: Metadata set : rhifeaturelevel="SM6"
+[2026.02.18-17.40.51:959][  0]LogCsvProfiler: Display: Metadata set : shaderplatform="PCD3D_SM6"
+[2026.02.18-17.40.51:959][  0]LogInit: Initializing FReadOnlyCVARCache
+[2026.02.18-17.40.51:962][  0]LogTurnkeySupport: Running Turnkey SDK detection: ' -ScriptsForProject="C:/Users/user/Documents/GitHub/UnrealMultiplayer/Multiplayer/Multiplayer.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/user/Documents/GitHub/UnrealMultiplayer/Multiplayer/Intermediate/TurnkeyReport_0.log" -log="C:/Users/user/Documents/GitHub/UnrealMultiplayer/Multiplayer/Intermediate/TurnkeyLog_0.log" -project="C:/Users/user/Documents/GitHub/UnrealMultiplayer/Multiplayer/Multiplayer.uproject"  -platform=all'
+[2026.02.18-17.40.51:962][  0]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""C:/Program Files/Epic Games/UE_5.6/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="C:/Users/user/Documents/GitHub/UnrealMultiplayer/Multiplayer/Multiplayer.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/user/Documents/GitHub/UnrealMultiplayer/Multiplayer/Intermediate/TurnkeyReport_0.log" -log="C:/Users/user/Documents/GitHub/UnrealMultiplayer/Multiplayer/Intermediate/TurnkeyLog_0.log" -project="C:/Users/user/Documents/GitHub/UnrealMultiplayer/Multiplayer/Multiplayer.uproject"  -platform=all" ]
+[2026.02.18-17.40.51:977][  0]LogTextureFormatASTC: Display: ASTCEnc version 5.0.1 library loaded
+[2026.02.18-17.40.51:978][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatASTC
+[2026.02.18-17.40.51:978][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatDXT
+[2026.02.18-17.40.51:978][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatETC2
+[2026.02.18-17.40.51:978][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatIntelISPCTexComp
+[2026.02.18-17.40.51:978][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatUncompressed
+[2026.02.18-17.40.51:978][  0]LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.13
+[2026.02.18-17.40.51:978][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.13.dll
+[2026.02.18-17.40.51:979][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.5.dll
+[2026.02.18-17.40.51:979][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatOodle
+[2026.02.18-17.40.52:006][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2026.02.18-17.40.52:006][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2026.02.18-17.40.52:006][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2026.02.18-17.40.52:006][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2026.02.18-17.40.52:006][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_OpenXR'
+[2026.02.18-17.40.52:006][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2026.02.18-17.40.52:006][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2026.02.18-17.40.52:006][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2026.02.18-17.40.52:006][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2026.02.18-17.40.52:006][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_OpenXRClient'
+[2026.02.18-17.40.52:006][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2026.02.18-17.40.52:006][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2026.02.18-17.40.52:019][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2026.02.18-17.40.52:019][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2026.02.18-17.40.52:033][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2026.02.18-17.40.52:034][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxEditor'
+[2026.02.18-17.40.52:034][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2026.02.18-17.40.52:034][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2026.02.18-17.40.52:048][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2026.02.18-17.40.52:048][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacEditor'
+[2026.02.18-17.40.52:048][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2026.02.18-17.40.52:048][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2026.02.18-17.40.52:062][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2026.02.18-17.40.52:062][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2026.02.18-17.40.52:076][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2026.02.18-17.40.52:076][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+[2026.02.18-17.40.52:076][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2026.02.18-17.40.52:076][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2026.02.18-17.40.52:076][  0]LogTargetPlatformManager: Display: Building Assets For WindowsEditor
+[2026.02.18-17.40.52:079][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2026.02.18-17.40.52:109][  0]LogTargetPlatformManager: Unable to find shader format SF_METAL_ES3_1_IOS from hinted modules, loading all potential format modules to find it
+[2026.02.18-17.40.52:114][  0]LogTargetPlatformManager: Loaded format module MetalShaderFormat
+[2026.02.18-17.40.52:114][  0]LogTargetPlatformManager:   SF_METAL_ES3_1_IOS
+[2026.02.18-17.40.52:114][  0]LogTargetPlatformManager:   SF_METAL_SM5_IOS
+[2026.02.18-17.40.52:114][  0]LogTargetPlatformManager:   SF_METAL_ES3_1_TVOS
+[2026.02.18-17.40.52:114][  0]LogTargetPlatformManager:   SF_METAL_SM5_TVOS
+[2026.02.18-17.40.52:114][  0]LogTargetPlatformManager:   SF_METAL_SM5
+[2026.02.18-17.40.52:116][  0]LogTargetPlatformManager:   SF_METAL_SM6
+[2026.02.18-17.40.52:116][  0]LogTargetPlatformManager:   SF_METAL_SIM
+[2026.02.18-17.40.52:116][  0]LogTargetPlatformManager:   SF_METAL_ES3_1
+[2026.02.18-17.40.52:116][  0]LogTargetPlatformManager: Loaded format module ShaderFormatD3D
+[2026.02.18-17.40.52:116][  0]LogTargetPlatformManager:   PCD3D_SM6
+[2026.02.18-17.40.52:116][  0]LogTargetPlatformManager:   PCD3D_SM5
+[2026.02.18-17.40.52:116][  0]LogTargetPlatformManager:   PCD3D_ES31
+[2026.02.18-17.40.52:116][  0]LogTargetPlatformManager: Loaded format module ShaderFormatOpenGL
+[2026.02.18-17.40.52:116][  0]LogTargetPlatformManager:   GLSL_150_ES31
+[2026.02.18-17.40.52:116][  0]LogTargetPlatformManager:   GLSL_ES3_1_ANDROID
+[2026.02.18-17.40.52:116][  0]LogTargetPlatformManager: Loaded format module ShaderFormatVectorVM
+[2026.02.18-17.40.52:116][  0]LogTargetPlatformManager:   VVM_1_0
+[2026.02.18-17.40.52:116][  0]LogTargetPlatformManager: Loaded format module VulkanShaderFormat
+[2026.02.18-17.40.52:116][  0]LogTargetPlatformManager:   SF_VULKAN_SM5
+[2026.02.18-17.40.52:116][  0]LogTargetPlatformManager:   SF_VULKAN_ES31_ANDROID
+[2026.02.18-17.40.52:116][  0]LogTargetPlatformManager:   SF_VULKAN_ES31
+[2026.02.18-17.40.52:116][  0]LogTargetPlatformManager:   SF_VULKAN_SM5_ANDROID
+[2026.02.18-17.40.52:116][  0]LogTargetPlatformManager:   SF_VULKAN_SM6
+[2026.02.18-17.40.52:116][  0]LogRendererCore: Ray tracing is disabled. Reason: not supported by current RHI.
+[2026.02.18-17.40.52:120][  0]LogDerivedDataCache: Display: Memory: Max Cache Size: -1 MB
+[2026.02.18-17.40.52:120][  0]LogDerivedDataCache: FDerivedDataBackendGraph: Pak pak cache file ../../../../../../Users/user/Documents/GitHub/UnrealMultiplayer/Multiplayer/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2026.02.18-17.40.52:120][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchy Hierarchy.
+[2026.02.18-17.40.52:120][  0]LogDerivedDataCache: FDerivedDataBackendGraph: CompressedPak pak cache file ../../../../../../Users/user/Documents/GitHub/UnrealMultiplayer/Multiplayer/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2026.02.18-17.40.52:120][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchy Hierarchy.
+[2026.02.18-17.40.52:331][  0]LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (1350 MiB)
+[2026.02.18-17.40.52:331][  0]LogDerivedDataCache: FDerivedDataBackendGraph: EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2026.02.18-17.40.52:332][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchy Hierarchy.
+[2026.02.18-17.40.52:332][  0]LogZenServiceInstance: Found Zen config default=C:/Users/user/AppData/Local/UnrealEngine/Common/Zen/Data
+[2026.02.18-17.40.52:333][  0]LogZenServiceInstance: InTree version at 'C:/Program Files/Epic Games/UE_5.6/Engine/Binaries/Win64/zenserver.exe' is '5.6.6-202504241958-windows-x64-release-f090a03'
+[2026.02.18-17.40.52:333][  0]LogZenServiceInstance: Installed version at 'C:/Users/user/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe' is '5.6.6-202504241958-windows-x64-release-f090a03'
+[2026.02.18-17.40.52:334][  0]LogZenServiceInstance: Found existing instance running on port 8558 matching our settings, no actions needed
+[2026.02.18-17.40.52:738][  0]LogZenServiceInstance: Display: Unreal Zen Storage Server HTTP service at [::1]:8558 status: OK!.
+[2026.02.18-17.40.52:738][  0]LogZenServiceInstance: Local ZenServer AutoLaunch initialization completed in 0.405 seconds
+[2026.02.18-17.40.52:740][  0]LogDerivedDataCache: Display: ZenLocal: Using ZenServer HTTP service at http://[::1]:8558/ with namespace ue.ddc status: OK!.
+[2026.02.18-17.40.52:751][  0]LogDerivedDataCache: C:/Users/user/AppData/Local/UnrealEngine/Common/DerivedDataCache: Speed tests took 0.01 seconds.
+[2026.02.18-17.40.52:752][  0]LogDerivedDataCache: Display: C:/Users/user/AppData/Local/UnrealEngine/Common/DerivedDataCache: Performance: Latency=0.02ms. RandomReadSpeed=1155.90MBs, RandomWriteSpeed=108.64MBs. Assigned SpeedClass 'Local'
+[2026.02.18-17.40.52:753][  0]LogDerivedDataCache: Local: Using data cache path C:/Users/user/AppData/Local/UnrealEngine/Common/DerivedDataCache: DeleteOnly
+[2026.02.18-17.40.52:754][  0]LogDerivedDataCache: ZenShared: Disabled because Host is set to 'None'
+[2026.02.18-17.40.52:754][  0]LogDerivedDataCache: Unable to find inner node ZenShared for hierarchy Hierarchy.
+[2026.02.18-17.40.52:754][  0]LogDerivedDataCache: Shared: Disabled because no path is configured.
+[2026.02.18-17.40.52:754][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchy Hierarchy.
+[2026.02.18-17.40.52:754][  0]LogDerivedDataCache: Cloud: Disabled because Host is set to 'None'
+[2026.02.18-17.40.52:754][  0]LogDerivedDataCache: Unable to find inner node Cloud for hierarchy Hierarchy.
+[2026.02.18-17.40.52:755][  0]LogShaderCompilers: Guid format shader working directory is -31 characters bigger than the processId version (../../../../../../Users/user/Documents/GitHub/UnrealMultiplayer/Multiplayer/Intermediate/Shaders/WorkingDirectory/18524/).
+[2026.02.18-17.40.52:755][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/user/AppData/Local/Temp/UnrealShaderWorkingDir/19B89678437C97504081C5A5DC45BED9/'.
+[2026.02.18-17.40.52:755][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2026.02.18-17.40.52:755][  0]LogShaderCompilers: Display: Using 8 local workers for shader compilation
+[2026.02.18-17.40.52:757][  0]LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Users/user/Documents/GitHub/UnrealMultiplayer/Multiplayer/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush
+[2026.02.18-17.40.52:757][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2026.02.18-17.40.53:485][  0]LogTurnkeySupport: Completed SDK detection: ExitCode = 0
+[2026.02.18-17.40.53:485][  0]LogInit: Using OS detected language (es-ES).
+[2026.02.18-17.40.53:486][  0]LogInit: Using OS detected locale (es-ES).
+[2026.02.18-17.40.53:486][  0]LogTextLocalizationManager: No localization for 'es-ES' exists, so 'en' will be used for the language.
+[2026.02.18-17.40.53:486][  0]LogTextLocalizationManager: No localization for 'es-ES' exists, so 'en' will be used for the locale.
+[2026.02.18-17.40.53:488][  0]LogAssetRegistry: FAssetRegistry took 0.0005 seconds to start up
+[2026.02.18-17.40.53:826][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+[2026.02.18-17.40.53:827][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+[2026.02.18-17.40.53:881][  0]LogDeviceProfileManager: Active device profile: [000001F7533C0280][000001F73FB27800 66] WindowsEditor
+[2026.02.18-17.40.53:881][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2026.02.18-17.40.53:886][  0]LogStreaming: Display: FlushAsyncLoading(1): 1 QueuedPackages, 0 AsyncPackages
+[2026.02.18-17.40.53:892][  0]LogPackageLocalizationCache: Processed 67 localized package path(s) for 1 prioritized culture(s) in 0.005625 seconds
+[2026.02.18-17.40.53:916][  0]LogTextureEncodingSettings: Display: Texture Encode Speed: Final (cook).
+[2026.02.18-17.40.53:916][  0]LogTextureEncodingSettings: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2026.02.18-17.40.53:916][  0]LogTextureEncodingSettings: Display: Shared linear texture encoding: Disabled
+[2026.02.18-17.40.53:920][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: WaitingForIo) recursively from another package /Engine/EditorMaterials/MatineeCam_mat (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.02.18-17.40.53:921][  0]LogStreaming: Display: Package /Engine/EditorMaterials/MatineeCam_mat is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness because of a recursive sync load
+[2026.02.18-17.40.53:921][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: DeferredPostLoad) recursively from another package /Engine/EditorMaterials/MatineeCam_mat (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.02.18-17.40.53:921][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: WaitingForIo) recursively from another package /Engine/EditorMaterials/MatineeCam_mat (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.02.18-17.40.53:922][  0]LogStreaming: Display: Package /Engine/EditorMaterials/MatineeCam_mat is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec because of a recursive sync load
+[2026.02.18-17.40.53:922][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: DeferredPostLoad) recursively from another package /Engine/EditorMaterials/MatineeCam_mat (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.02.18-17.40.53:922][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/WorldGridMaterial (state: WaitingForIo) recursively from another package /Engine/EditorMaterials/MatineeCam_mat (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.02.18-17.40.53:926][  0]LogStreaming: Display: Package /Engine/EditorMaterials/MatineeCam_mat is adding a dynamic import to package /Engine/EngineMaterials/T_Default_Material_Grid_M because of a recursive sync load
+[2026.02.18-17.40.53:927][  0]LogStreaming: Display: Package /Engine/EditorMaterials/MatineeCam_mat is adding a dynamic import to package /Engine/EngineMaterials/T_Default_Material_Grid_N because of a recursive sync load
+[2026.02.18-17.40.53:928][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.02.18-17.40.53:929][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.02.18-17.40.53:930][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.02.18-17.40.53:931][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultDiffuse because of a recursive sync load
+[2026.02.18-17.40.53:931][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components because of a recursive sync load
+[2026.02.18-17.40.53:931][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultPostProcessMaterial because of a recursive sync load
+[2026.02.18-17.40.53:931][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.02.18-17.40.53:932][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultDeferredDecalMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultLightFunctionMaterial because of a recursive sync load
+[2026.02.18-17.40.53:932][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.02.18-17.40.53:934][  0]LogStreaming: Display: Package /Engine/EngineMaterials/WorldGridMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultDeferredDecalMaterial because of a recursive sync load
+[2026.02.18-17.40.53:934][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.02.18-17.40.53:934][  0]LogStreaming: Display: Package /Engine/EditorMaterials/MatineeCam_mat is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade because of a recursive sync load
+[2026.02.18-17.40.53:934][  0]LogStreaming: Display: Package /Engine/EditorMaterials/MatineeCam_mat is adding a dynamic import to package /Engine/EngineMaterials/WorldGridMaterial because of a recursive sync load
+[2026.02.18-17.40.53:934][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/WorldGridMaterial (state: DeferredPostLoad) recursively from another package /Engine/EditorMaterials/MatineeCam_mat (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.02.18-17.40.53:954][  0]LogMeshReduction: Display: Using QuadricMeshReduction for automatic static mesh reduction
+[2026.02.18-17.40.53:955][  0]LogMeshReduction: Display: Using SkeletalMeshReduction for automatic skeletal mesh reduction
+[2026.02.18-17.40.53:955][  0]LogMeshReduction: Display: Using ProxyLODMeshReduction for automatic mesh merging
+[2026.02.18-17.40.53:955][  0]LogMeshReduction: Display: No distributed automatic mesh merging module available
+[2026.02.18-17.40.53:955][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2026.02.18-17.40.54:268][  0]LogConfig: Applying CVar settings from Section [/Script/CQTest.CQTestSettings] File [Engine]
+[2026.02.18-17.40.54:307][  0]LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+[2026.02.18-17.40.54:307][  0]LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2026.02.18-17.40.54:308][  0]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: NetActorFactory name: NetActorFactory id: 0
+[2026.02.18-17.40.54:308][  0]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: NetSubObjectFactory name: NetSubObjectFactory id: 1
+[2026.02.18-17.40.54:363][  0]LogLiveCoding: Display: Starting LiveCoding
+[2026.02.18-17.40.54:363][  0]LogLiveCoding: Display: LiveCodingConsole Arguments: UnrealEditor Win64 Development
+[2026.02.18-17.40.54:364][  0]LogLiveCoding: Display: Detected running instance in process group "UE_Multiplayer_0x1462e982", connecting to console process (PID: 8232)
+[2026.02.18-17.40.54:364][  0]LogLiveCoding: Display: Waiting for server
+[2026.02.18-17.40.54:364][  0]LogLiveCoding: Display: Successfully initialized, removing startup thread
+[2026.02.18-17.40.54:364][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize started...
+[2026.02.18-17.40.54:368][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize took 4.382 ms
+[2026.02.18-17.40.54:401][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2026.02.18-17.40.54:674][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: B2A1A7091F7C48D28000000000000800 | Instance: 153E8381491127230A8865A7AB18D054 (DESKTOP-A8QTU1U-18524).
+[2026.02.18-17.40.54:713][  0]LogCollectionManager: Loaded 0 collections in 0.003388 seconds
+[2026.02.18-17.40.54:720][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Documents/GitHub/UnrealMultiplayer/Multiplayer/Saved/Collections/' took 0.00s
+[2026.02.18-17.40.54:720][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Documents/GitHub/UnrealMultiplayer/Multiplayer/Content/Developers/user/Collections/' took 0.00s
+[2026.02.18-17.40.54:720][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Documents/GitHub/UnrealMultiplayer/Multiplayer/Content/Collections/' took 0.00s
+[2026.02.18-17.40.54:720][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000000 seconds (updated 0 objects)
+[2026.02.18-17.40.55:241][  0]LogNNERuntimeORT: Available graphics and compute adapters:
+[2026.02.18-17.40.55:241][  0]LogNNERuntimeORT: Selecting NPU adapter: NVIDIA GeForce RTX 4050 Laptop GPU
+[2026.02.18-17.40.55:468][  0]LogNNERuntimeORT: MakeRuntimeORTDml:
+[2026.02.18-17.40.55:468][  0]LogNNERuntimeORT:   DirectML:  yes
+[2026.02.18-17.40.55:469][  0]LogNNERuntimeORT:   RHI D3D12: no
+[2026.02.18-17.40.55:469][  0]LogNNERuntimeORT:   D3D12:     yes
+[2026.02.18-17.40.55:469][  0]LogNNERuntimeORT:   NPU:       yes
+[2026.02.18-17.40.55:469][  0]LogNNERuntimeORT: Interface availability:
+[2026.02.18-17.40.55:469][  0]LogNNERuntimeORT:   GPU: yes
+[2026.02.18-17.40.55:469][  0]LogNNERuntimeORT:   RDG: no
+[2026.02.18-17.40.55:469][  0]LogNNERuntimeORT:   NPU: yes
+[2026.02.18-17.40.55:780][  0]LogNNERuntimeORT: Available graphics and compute adapters:
+[2026.02.18-17.40.55:780][  0]LogNNERuntimeORT: Selecting NPU adapter: NVIDIA GeForce RTX 4050 Laptop GPU
+[2026.02.18-17.40.56:192][  0]LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+[2026.02.18-17.40.56:193][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2026.02.18-17.40.56:221][  0]LogMetaSound: MetaSound Engine Initialized
+[2026.02.18-17.40.56:306][  0]SourceControl: Revision control is disabled
+[2026.02.18-17.40.56:492][  0]LogConfig: Applying CVar settings from Section [/Script/NNEDenoiser.NNEDenoiserSettings] File [Engine]
+[2026.02.18-17.40.56:495][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2026.02.18-17.40.56:505][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.02.18-17.40.56:505][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.02.18-17.40.56:591][  0]LogUObjectArray: 37370 objects as part of root set at end of initial load.
+[2026.02.18-17.40.56:592][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2026.02.18-17.40.56:734][  0]LogEngine: Initializing Engine...
+[2026.02.18-17.40.56:780][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2026.02.18-17.40.56:781][  0]LogInit: Texture streaming: Disabled
+[2026.02.18-17.40.56:819][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2026.02.18-17.40.56:826][  0]LogChaosDD: Creating Chaos Debug Draw Scene for world Untitled
+[2026.02.18-17.40.56:829][  0]LogNiagara: UAV Float16 is not supported, compressed GPU emitters will be disabled.
+[2026.02.18-17.40.56:831][  0]LogInit: Display: Game Engine Initialized.
+[2026.02.18-17.40.56:836][  0]LogNNEDenoiser: Ray Tracing is not enabled, therefore NNEDenoiser is not registered!
+[2026.02.18-17.40.56:836][  0]LogNiagaraEditor: GEditor isn't valid! Particle reset commands will not work for Niagara components!
+[2026.02.18-17.40.56:839][  0]LogPython: Python enabled via CVar 'Engine.Python.IsEnabledByDefault'
+[2026.02.18-17.40.56:839][  0]LogPython: Using Python 3.11.8
+[2026.02.18-17.40.58:552][  0]LogPython: Display: No pip-enabled plugins with python dependencies found, skipping
+[2026.02.18-17.40.58:604][  0]LogInit: Display: Starting Game.
+[2026.02.18-17.40.58:604][  0]LogAssetRegistry: Warning: GetFirstPackageByName is being called in `-game` to resolve partial package name. This may cause a slow scan on disk. Consider using the fully qualified package name for better performance. 
+[2026.02.18-17.40.58:724][  0]LogPackageName: SearchForPackageOnDisk took   0.119s to resolve Lobby_lvl.
+[2026.02.18-17.40.58:724][  0]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Maps/Lobby_lvl?Name=Player"
+[2026.02.18-17.40.58:725][  0]LogNet: Browse: /Game/Maps/Lobby_lvl?Name=Player
+[2026.02.18-17.40.58:725][  0]LogLoad: LoadMap: /Game/Maps/Lobby_lvl?Name=Player
+[2026.02.18-17.40.58:726][  0]LogWorld: BeginTearingDown for /Temp/Untitled_0
+[2026.02.18-17.40.58:726][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2026.02.18-17.40.58:753][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2026.02.18-17.40.58:755][  0]LogTurnkeySupport: Turnkey Platform: Win64: (Status=Invalid, MinAllowed_Sdk=10.0.19041.0, MaxAllowed_Sdk=10.9.99999.0, Current_Sdk=, Allowed_AutoSdk=10.0.22621.0, Current_AutoSdk=, Flags="Platform_ValidHostPrerequisites")
+[2026.02.18-17.40.58:757][  0]LogTurnkeySupport: Running Turnkey device detection: ' -ScriptsForProject="C:/Users/user/Documents/GitHub/UnrealMultiplayer/Multiplayer/Multiplayer.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/user/Documents/GitHub/UnrealMultiplayer/Multiplayer/Intermediate/TurnkeyReport_1.log" -log="C:/Users/user/Documents/GitHub/UnrealMultiplayer/Multiplayer/Intermediate/TurnkeyLog_1.log" -project="C:/Users/user/Documents/GitHub/UnrealMultiplayer/Multiplayer/Multiplayer.uproject"  -Device=Win64@DESKTOP-A8QTU1U'
+[2026.02.18-17.40.58:757][  0]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""C:/Program Files/Epic Games/UE_5.6/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="C:/Users/user/Documents/GitHub/UnrealMultiplayer/Multiplayer/Multiplayer.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/user/Documents/GitHub/UnrealMultiplayer/Multiplayer/Intermediate/TurnkeyReport_1.log" -log="C:/Users/user/Documents/GitHub/UnrealMultiplayer/Multiplayer/Intermediate/TurnkeyLog_1.log" -project="C:/Users/user/Documents/GitHub/UnrealMultiplayer/Multiplayer/Multiplayer.uproject"  -Device=Win64@DESKTOP-A8QTU1U" -nocompile -nocompileuat ]
+[2026.02.18-17.41.00:209][  0]LogTurnkeySupport: Completed device detection: Code = 0
+[2026.02.18-17.41.00:209][  0]LogChaosDD: Creating Chaos Debug Draw Scene for world Lobby_lvl
+[2026.02.18-17.41.00:216][  0]LogLoad: Game class is 'Lobby_GM_C'
+[2026.02.18-17.41.00:216][  0]LogCsvProfiler: Display: Metadata set : iris="0"
+[2026.02.18-17.41.00:217][  0]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2026.02.18-17.41.00:217][  0]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2026.02.18-17.41.00:217][  0]LogPushModel: PushModel HandleCreation is now enabled
+[2026.02.18-17.41.00:217][  0]LogNet: InitBase GameNetDriver (NetDriverDefinition GameNetDriver) using replication model Generic
+[2026.02.18-17.41.00:218][  0]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2026.02.18-17.41.00:218][  0]LogNet: Created socket for bind address: 0.0.0.0:7777
+[2026.02.18-17.41.00:218][  0]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2026.02.18-17.41.00:218][  0]LogNet: Name:GameNetDriver Def:GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
+[2026.02.18-17.41.00:239][  0]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Engine/EngineMeshes/Cube.Cube being ready before playing
+[2026.02.18-17.41.00:239][  0]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Engine/BasicShapes/Cone.Cone being ready before playing
+[2026.02.18-17.41.00:239][  0]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Engine/BasicShapes/Cylinder.Cylinder being ready before playing
+[2026.02.18-17.41.00:240][  0]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/LevelPrototyping/Meshes/SM_Cylinder.SM_Cylinder being ready before playing
+[2026.02.18-17.41.00:269][  0]LogWorld: Bringing World /Game/Maps/Lobby_lvl.Lobby_lvl up for play (max tick rate 30) at 2026.02.18-18.41.00
+[2026.02.18-17.41.00:270][  0]LogWorld: Bringing up level for play took: 0.029766
+[2026.02.18-17.41.00:271][  0]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2026.02.18-17.41.00:271][  0]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2026.02.18-17.41.00:271][  0]LogLoad: Took 1.545705 seconds to LoadMap(/Game/Maps/Lobby_lvl)
+[2026.02.18-17.41.00:272][  0]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Maps/Lobby_lvl
+[2026.02.18-17.41.00:331][  0]LogAssetRegistry: Display: Triggering cache save on discovery complete
+[2026.02.18-17.41.00:440][  0]LogAssetRegistry: Display: Asset registry cache read as 70.8 MiB from ../../../../../../Users/user/Documents/GitHub/UnrealMultiplayer/Multiplayer/Intermediate/CachedAssetRegistry_0.bin.
+[2026.02.18-17.41.00:442][  0]LogAssetRegistry: Display: AssetDataGatherer spent 0.093s loading caches ../../../../../../Users/user/Documents/GitHub/UnrealMultiplayer/Multiplayer/Intermediate/CachedAssetRegistry_*.bin.
+[2026.02.18-17.41.00:550][  0]LogAssetRegistry: AssetRegistryGather time 0.1927s: AssetDataDiscovery 0.0000s, AssetDataGather 0.1151s, StoreResults 0.0776s. Wall time 7.0620s.
+	NumCachedDirectories 1549. NumUncachedDirectories 26. NumCachedFiles 7746. NumUncachedFiles 9.
+	BackgroundTickInterruptions 0.
+[2026.02.18-17.41.00:583][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2026.02.18-17.41.00:583][  0]LogLoad: (Engine Initialization) Total time: 10.20 seconds
+[2026.02.18-17.41.00:637][  0]LogTurnkeySupport: Turnkey Device: Win64@DESKTOP-A8QTU1U: (Name=DESKTOP-A8QTU1U, Type=Computer, Status=Valid, MinAllowed=10.0.19041.0, MaxAllowed=, Current=10.0.26100.0, Flags="Device_InstallSoftwareValid")
+[2026.02.18-17.41.00:639][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... started...
+[2026.02.18-17.41.00:697][  0]LogPython: registering <class 'ControlRigWorkflows.workflow_deformation_rig_preset.provider'>
+
+[2026.02.18-17.41.00:710][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... took 70.312 ms
+[2026.02.18-17.41.00:717][  1]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.00:755][  2]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.00:803][  3]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.00:850][  4]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.00:898][  5]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.00:944][  6]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.00:990][  7]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.01:036][  8]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.01:084][  9]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.01:131][ 10]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.01:178][ 11]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.01:223][ 12]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.01:270][ 13]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.01:317][ 14]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.01:364][ 15]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.01:409][ 16]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.01:455][ 17]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.01:502][ 18]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.01:548][ 19]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.01:594][ 20]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.01:642][ 21]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.01:689][ 22]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.01:736][ 23]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.01:783][ 24]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.01:829][ 25]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.01:875][ 26]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.01:922][ 27]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.01:969][ 28]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.02:015][ 29]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.02:062][ 30]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.02:109][ 31]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.02:156][ 32]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.02:203][ 33]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.02:250][ 34]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.02:298][ 35]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.02:344][ 36]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.02:390][ 37]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.02:437][ 38]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.02:485][ 39]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.02:531][ 40]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.02:576][ 41]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.02:623][ 42]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.02:670][ 43]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.02:717][ 44]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.02:764][ 45]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.02:812][ 46]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.02:858][ 47]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.02:904][ 48]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.02:951][ 49]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.02:999][ 50]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.03:045][ 51]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.03:091][ 52]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.03:137][ 53]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.03:185][ 54]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.03:232][ 55]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.03:278][ 56]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.03:325][ 57]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.03:370][ 58]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.03:416][ 59]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.03:462][ 60]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.03:508][ 61]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.03:555][ 62]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.03:600][ 63]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.03:648][ 64]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.03:693][ 65]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.03:740][ 66]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.03:786][ 67]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.03:832][ 68]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.03:878][ 69]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.03:925][ 70]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.03:972][ 71]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.04:018][ 72]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.04:065][ 73]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.04:113][ 74]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.04:160][ 75]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.04:206][ 76]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.04:253][ 77]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.04:300][ 78]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.04:346][ 79]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.04:392][ 80]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.04:438][ 81]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.04:484][ 82]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.04:530][ 83]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.04:576][ 84]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.04:622][ 85]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.04:669][ 86]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.04:715][ 87]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.04:762][ 88]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.04:808][ 89]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.04:854][ 90]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.04:901][ 91]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.04:948][ 92]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:55216
+[2026.02.18-17.41.04:948][ 92]LogNetVersion: Multiplayer 1.0.0.0, NetCL: 43139311, EngineNetworkVersion: 42, GameNetworkVersion: 0 (Checksum: 2407167840)
+[2026.02.18-17.41.04:949][ 92]LogHandshake: SendConnectChallenge. Timestamp: 4.364019, Cookie: 183245030025185029130096121091053015121245150076062188253084
+[2026.02.18-17.41.04:949][ 92]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.04:994][ 93]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:55216
+[2026.02.18-17.41.04:994][ 93]LogHandshake: SendChallengeAck. InCookie: 183245030025185029130096121091053015121245150076062188253084
+[2026.02.18-17.41.04:995][ 93]LogNet: Server accepting post-challenge connection from: 127.0.0.1:55216
+[2026.02.18-17.41.04:995][ 93]LogNet: IpConnection_0 setting maximum channels to: 32767
+[2026.02.18-17.41.04:995][ 93]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2026.02.18-17.41.04:995][ 93]LogNet: NotifyAcceptedConnection: Name: Lobby_lvl, TimeStamp: 02/18/26 18:41:04, [UNetConnection] RemoteAddr: 127.0.0.1:55216, Name: IpConnection_0, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2026.02.18-17.41.04:995][ 93]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:55216, Name: IpConnection_0, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2026.02.18-17.41.04:996][ 93]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.05:040][ 94]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/Lobby_lvl.Lobby_lvl: Accepted
+[2026.02.18-17.41.05:040][ 94]LogNet: Remote platform little endian=1
+[2026.02.18-17.41.05:041][ 94]LogNet: This platform little endian=1
+[2026.02.18-17.41.05:041][ 94]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.05:087][ 95]LogNet: Login request: ?Name=DESKTOP-A8QTU1U-28A487684A733CBFD3BC7DAE2C840A7E userId: NULL:DESKTOP-A8QTU1U-28A487684A733CBFD3BC7DAE2C840A7E platform: NULL
+[2026.02.18-17.41.05:088][ 95]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.05:134][ 96]LogNet: Client netspeed is 100000
+[2026.02.18-17.41.05:134][ 96]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.05:180][ 97]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.05:227][ 98]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.05:274][ 99]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.05:321][100]LogNet: Join request: /Engine/Maps/Entry?Name=DESKTOP-A8QTU1U-28A487684A733CBFD3BC7DAE2C840A7E?SplitscreenCount=1
+[2026.02.18-17.41.05:322][100]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2026.02.18-17.41.05:327][100]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2026.02.18-17.41.05:327][100]LogNet: Join succeeded: DESKTOP-A8QTU1U-28A4
+[2026.02.18-17.41.05:328][100]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.05:367][101]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.05:413][102]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.05:460][103]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.05:507][104]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.05:555][105]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.05:599][106]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.05:646][107]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.05:692][108]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.05:739][109]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.05:785][110]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.05:834][111]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.05:880][112]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.05:927][113]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.05:973][114]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.06:019][115]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.06:066][116]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.06:114][117]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.06:161][118]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.06:207][119]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.06:254][120]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.06:300][121]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.06:347][122]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.06:395][123]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.06:441][124]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.06:487][125]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.06:534][126]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.06:580][127]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.06:625][128]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.06:671][129]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.06:718][130]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.06:765][131]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.06:813][132]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.06:859][133]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.06:906][134]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.06:951][135]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.06:998][136]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.07:043][137]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.07:091][138]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.07:137][139]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.07:184][140]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.07:230][141]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.07:276][142]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.07:322][143]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.07:368][144]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.07:415][145]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.07:461][146]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.07:508][147]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.07:555][148]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.07:602][149]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.07:649][150]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.07:692][151]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.07:738][152]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.07:785][153]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.07:829][154]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.07:875][155]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.07:922][156]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.07:970][157]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.08:017][158]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.08:062][159]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.08:109][160]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.08:155][161]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.08:204][162]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.08:250][163]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.08:295][164]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.08:343][165]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.08:390][166]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.08:436][167]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.08:484][168]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.08:530][169]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.08:577][170]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.08:624][171]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.08:670][172]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.08:718][173]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.08:762][174]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.08:809][175]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.08:855][176]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.08:901][177]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.08:946][178]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.08:995][179]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.09:042][180]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.09:090][181]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.09:138][182]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.09:183][183]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.09:230][184]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.09:276][185]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.09:323][186]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.09:369][187]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.09:415][188]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.09:460][189]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.09:508][190]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.09:553][191]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.09:599][192]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.09:645][193]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.09:691][194]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.09:740][195]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.09:787][196]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.09:833][197]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.09:878][198]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.09:925][199]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.09:969][200]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.10:016][201]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.10:064][202]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.10:111][203]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.10:156][204]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.10:203][205]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.10:251][206]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.10:298][207]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.10:343][208]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.10:390][209]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.10:438][210]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.10:485][211]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.10:530][212]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.10:578][213]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.10:625][214]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.10:672][215]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.10:718][216]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.10:764][217]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.10:811][218]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.10:858][219]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.10:906][220]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.10:951][221]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.11:001][222]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.11:046][223]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.11:095][224]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.11:138][225]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.11:185][226]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.11:233][227]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.11:279][228]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.11:325][229]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.11:371][230]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.11:418][231]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.11:465][232]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.11:513][233]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.11:560][234]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.11:606][235]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.11:651][236]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.11:699][237]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.11:744][238]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.11:792][239]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.11:838][240]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.11:884][241]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.11:930][242]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.11:978][243]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.12:024][244]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.12:070][245]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.12:116][246]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.12:163][247]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.12:208][248]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.12:254][249]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.12:301][250]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.12:349][251]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.12:394][252]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.12:441][253]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.12:489][254]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.12:535][255]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.12:581][256]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.12:628][257]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.12:674][258]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.12:720][259]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.12:768][260]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.12:813][261]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.12:861][262]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.12:906][263]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.12:954][264]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.13:002][265]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.13:049][266]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.13:093][267]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.13:139][268]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.13:185][269]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.13:232][270]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.13:277][271]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.13:324][272]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.13:371][273]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.13:418][274]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.13:465][275]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.13:512][276]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.13:560][277]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.13:606][278]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.13:652][279]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.13:697][280]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.13:745][281]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.13:793][282]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.13:839][283]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.13:885][284]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.13:931][285]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.13:978][286]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.14:025][287]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.14:071][288]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.14:118][289]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.14:165][290]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.14:212][291]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.14:259][292]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.14:304][293]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.14:351][294]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.14:398][295]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.14:446][296]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.14:493][297]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.14:538][298]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.14:584][299]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.14:632][300]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.14:678][301]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.14:723][302]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.14:769][303]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.14:815][304]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.14:861][305]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.14:908][306]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.14:954][307]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.15:001][308]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.15:048][309]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.15:095][310]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.15:140][311]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.15:187][312]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.15:234][313]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.15:278][314]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.15:325][315]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.15:372][316]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.15:418][317]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.15:464][318]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.15:510][319]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.15:556][320]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.15:601][321]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.15:647][322]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.15:693][323]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.15:741][324]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.15:787][325]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.15:832][326]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.15:878][327]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.15:925][328]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.15:971][329]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.16:016][330]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.16:062][331]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.16:109][332]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.16:153][333]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.16:200][334]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.16:247][335]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.16:294][336]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.16:340][337]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.16:387][338]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.16:435][339]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.16:481][340]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.16:527][341]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.16:573][342]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.16:622][343]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.16:669][344]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.16:715][345]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.16:761][346]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.16:807][347]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.16:853][348]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.16:901][349]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.16:946][350]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.16:992][351]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.17:039][352]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.17:087][353]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.17:134][354]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.17:179][355]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.17:225][356]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.17:271][357]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.17:317][358]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.17:363][359]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.17:409][360]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.17:457][361]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.17:502][362]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.17:548][363]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.17:594][364]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.17:641][365]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.17:687][366]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.17:733][367]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.17:779][368]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.17:827][369]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.17:875][370]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.17:922][371]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.17:969][372]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.18:013][373]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.18:060][374]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.18:108][375]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.18:155][376]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.18:202][377]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.18:247][378]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.18:295][379]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.18:341][380]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.18:387][381]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.18:434][382]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.18:481][383]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.18:526][384]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.18:574][385]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.18:620][386]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.18:666][387]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.18:712][388]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.18:760][389]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.18:806][390]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.18:851][391]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.18:899][392]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.18:944][393]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.18:993][394]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.19:040][395]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.19:086][396]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.19:132][397]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.19:178][398]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.19:223][399]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.19:270][400]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.19:317][401]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.19:363][402]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.19:409][403]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.19:456][404]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.19:501][405]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.19:546][406]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.19:592][407]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.19:639][408]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.19:685][409]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.19:731][410]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.19:776][411]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.19:822][412]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.19:867][413]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.19:914][414]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.19:960][415]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.20:007][416]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.20:052][417]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:55217
+[2026.02.18-17.41.20:052][417]LogHandshake: SendConnectChallenge. Timestamp: 19.468887, Cookie: 159064141189096021064130032235005124108233037152160122225129
+[2026.02.18-17.41.20:054][417]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.20:099][418]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:55217
+[2026.02.18-17.41.20:099][418]LogHandshake: SendChallengeAck. InCookie: 159064141189096021064130032235005124108233037152160122225129
+[2026.02.18-17.41.20:100][418]LogNet: Server accepting post-challenge connection from: 127.0.0.1:55217
+[2026.02.18-17.41.20:100][418]LogNet: IpConnection_1 setting maximum channels to: 32767
+[2026.02.18-17.41.20:100][418]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2026.02.18-17.41.20:100][418]LogNet: NotifyAcceptedConnection: Name: Lobby_lvl, TimeStamp: 02/18/26 18:41:20, [UNetConnection] RemoteAddr: 127.0.0.1:55217, Name: IpConnection_1, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2026.02.18-17.41.20:100][418]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:55217, Name: IpConnection_1, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2026.02.18-17.41.20:101][418]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.20:145][419]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/Lobby_lvl.Lobby_lvl: Accepted
+[2026.02.18-17.41.20:145][419]LogNet: Remote platform little endian=1
+[2026.02.18-17.41.20:147][419]LogNet: This platform little endian=1
+[2026.02.18-17.41.20:148][419]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.20:191][420]LogNet: Login request: ?Name=DESKTOP-A8QTU1U-84882CB140BD0CE1BA077B99A41A6F8D userId: NULL:DESKTOP-A8QTU1U-84882CB140BD0CE1BA077B99A41A6F8D platform: NULL
+[2026.02.18-17.41.20:191][420]LogNet: Client netspeed is 100000
+[2026.02.18-17.41.20:192][420]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.20:237][421]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.20:285][422]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.20:331][423]LogNet: Join request: /Engine/Maps/Entry?Name=DESKTOP-A8QTU1U-84882CB140BD0CE1BA077B99A41A6F8D?SplitscreenCount=1
+[2026.02.18-17.41.20:336][423]LogNet: Join succeeded: DESKTOP-A8QTU1U-8488
+[2026.02.18-17.41.20:336][423]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.20:378][424]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.20:424][425]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.20:470][426]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.20:518][427]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.20:564][428]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.20:610][429]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.20:658][430]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.20:704][431]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.20:750][432]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.20:796][433]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.20:842][434]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.20:888][435]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.20:933][436]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.20:979][437]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.21:027][438]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.21:073][439]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.21:120][440]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.21:168][441]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.21:215][442]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.21:260][443]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.21:307][444]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.21:355][445]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.21:401][446]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 10
+[2026.02.18-17.41.21:402][446]LogBlueprintUserMessages: [Lobby_GM_C_0] 9
+[2026.02.18-17.41.21:447][447]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 9
+[2026.02.18-17.41.21:494][448]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 9
+[2026.02.18-17.41.21:541][449]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 9
+[2026.02.18-17.41.21:587][450]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 9
+[2026.02.18-17.41.21:634][451]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 9
+[2026.02.18-17.41.21:681][452]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 9
+[2026.02.18-17.41.21:729][453]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 9
+[2026.02.18-17.41.21:775][454]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 9
+[2026.02.18-17.41.21:822][455]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 9
+[2026.02.18-17.41.21:869][456]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 9
+[2026.02.18-17.41.21:913][457]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 9
+[2026.02.18-17.41.21:960][458]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 9
+[2026.02.18-17.41.22:008][459]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 9
+[2026.02.18-17.41.22:055][460]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 9
+[2026.02.18-17.41.22:100][461]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 9
+[2026.02.18-17.41.22:146][462]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 9
+[2026.02.18-17.41.22:194][463]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 9
+[2026.02.18-17.41.22:239][464]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 9
+[2026.02.18-17.41.22:287][465]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 9
+[2026.02.18-17.41.22:334][466]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 9
+[2026.02.18-17.41.22:379][467]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 9
+[2026.02.18-17.41.22:426][468]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 9
+[2026.02.18-17.41.22:428][468]LogBlueprintUserMessages: [Lobby_GM_C_0] 8
+[2026.02.18-17.41.22:475][469]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 8
+[2026.02.18-17.41.22:519][470]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 8
+[2026.02.18-17.41.22:564][471]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 8
+[2026.02.18-17.41.22:611][472]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 8
+[2026.02.18-17.41.22:658][473]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 8
+[2026.02.18-17.41.22:704][474]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 8
+[2026.02.18-17.41.22:750][475]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 8
+[2026.02.18-17.41.22:794][476]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 8
+[2026.02.18-17.41.22:842][477]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 8
+[2026.02.18-17.41.22:887][478]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 8
+[2026.02.18-17.41.22:933][479]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 8
+[2026.02.18-17.41.22:978][480]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 8
+[2026.02.18-17.41.23:025][481]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 8
+[2026.02.18-17.41.23:072][482]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 8
+[2026.02.18-17.41.23:118][483]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 8
+[2026.02.18-17.41.23:162][484]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 8
+[2026.02.18-17.41.23:210][485]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 8
+[2026.02.18-17.41.23:257][486]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 8
+[2026.02.18-17.41.23:304][487]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 8
+[2026.02.18-17.41.23:351][488]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 8
+[2026.02.18-17.41.23:397][489]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 8
+[2026.02.18-17.41.23:397][489]LogBlueprintUserMessages: [Lobby_GM_C_0] 7
+[2026.02.18-17.41.23:443][490]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 7
+[2026.02.18-17.41.23:490][491]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 7
+[2026.02.18-17.41.23:536][492]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 7
+[2026.02.18-17.41.23:582][493]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 7
+[2026.02.18-17.41.23:631][494]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 7
+[2026.02.18-17.41.23:678][495]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 7
+[2026.02.18-17.41.23:725][496]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 7
+[2026.02.18-17.41.23:771][497]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 7
+[2026.02.18-17.41.23:819][498]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 7
+[2026.02.18-17.41.23:864][499]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 7
+[2026.02.18-17.41.23:911][500]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 7
+[2026.02.18-17.41.23:957][501]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 7
+[2026.02.18-17.41.24:005][502]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 7
+[2026.02.18-17.41.24:050][503]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 7
+[2026.02.18-17.41.24:097][504]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 7
+[2026.02.18-17.41.24:142][505]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 7
+[2026.02.18-17.41.24:189][506]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 7
+[2026.02.18-17.41.24:235][507]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 7
+[2026.02.18-17.41.24:282][508]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 7
+[2026.02.18-17.41.24:329][509]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 7
+[2026.02.18-17.41.24:372][510]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 7
+[2026.02.18-17.41.24:420][511]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 7
+[2026.02.18-17.41.24:420][511]LogBlueprintUserMessages: [Lobby_GM_C_0] 6
+[2026.02.18-17.41.24:466][512]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 6
+[2026.02.18-17.41.24:512][513]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 6
+[2026.02.18-17.41.24:558][514]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 6
+[2026.02.18-17.41.24:605][515]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 6
+[2026.02.18-17.41.24:652][516]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 6
+[2026.02.18-17.41.24:700][517]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 6
+[2026.02.18-17.41.24:745][518]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 6
+[2026.02.18-17.41.24:792][519]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 6
+[2026.02.18-17.41.24:839][520]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 6
+[2026.02.18-17.41.24:885][521]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 6
+[2026.02.18-17.41.24:932][522]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 6
+[2026.02.18-17.41.24:977][523]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 6
+[2026.02.18-17.41.25:026][524]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 6
+[2026.02.18-17.41.25:071][525]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 6
+[2026.02.18-17.41.25:116][526]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 6
+[2026.02.18-17.41.25:162][527]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 6
+[2026.02.18-17.41.25:208][528]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 6
+[2026.02.18-17.41.25:254][529]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 6
+[2026.02.18-17.41.25:301][530]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 6
+[2026.02.18-17.41.25:347][531]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 6
+[2026.02.18-17.41.25:393][532]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 6
+[2026.02.18-17.41.25:394][532]LogBlueprintUserMessages: [Lobby_GM_C_0] 5
+[2026.02.18-17.41.25:441][533]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 5
+[2026.02.18-17.41.25:489][534]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 5
+[2026.02.18-17.41.25:533][535]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 5
+[2026.02.18-17.41.25:581][536]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 5
+[2026.02.18-17.41.25:627][537]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 5
+[2026.02.18-17.41.25:675][538]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 5
+[2026.02.18-17.41.25:719][539]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 5
+[2026.02.18-17.41.25:766][540]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 5
+[2026.02.18-17.41.25:812][541]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 5
+[2026.02.18-17.41.25:859][542]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 5
+[2026.02.18-17.41.25:908][543]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 5
+[2026.02.18-17.41.25:954][544]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 5
+[2026.02.18-17.41.26:001][545]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 5
+[2026.02.18-17.41.26:046][546]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 5
+[2026.02.18-17.41.26:095][547]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 5
+[2026.02.18-17.41.26:141][548]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 5
+[2026.02.18-17.41.26:188][549]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 5
+[2026.02.18-17.41.26:233][550]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 5
+[2026.02.18-17.41.26:280][551]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 5
+[2026.02.18-17.41.26:326][552]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 5
+[2026.02.18-17.41.26:373][553]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 5
+[2026.02.18-17.41.26:419][554]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 5
+[2026.02.18-17.41.26:420][554]LogBlueprintUserMessages: [Lobby_GM_C_0] 4
+[2026.02.18-17.41.26:466][555]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 4
+[2026.02.18-17.41.26:511][556]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 4
+[2026.02.18-17.41.26:558][557]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 4
+[2026.02.18-17.41.26:605][558]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 4
+[2026.02.18-17.41.26:651][559]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 4
+[2026.02.18-17.41.26:697][560]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 4
+[2026.02.18-17.41.26:745][561]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 4
+[2026.02.18-17.41.26:790][562]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 4
+[2026.02.18-17.41.26:857][563]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 4
+[2026.02.18-17.41.26:885][564]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 4
+[2026.02.18-17.41.26:931][565]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 4
+[2026.02.18-17.41.26:977][566]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 4
+[2026.02.18-17.41.27:024][567]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 4
+[2026.02.18-17.41.27:071][568]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 4
+[2026.02.18-17.41.27:117][569]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 4
+[2026.02.18-17.41.27:163][570]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 4
+[2026.02.18-17.41.27:211][571]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 4
+[2026.02.18-17.41.27:256][572]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 4
+[2026.02.18-17.41.27:301][573]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 4
+[2026.02.18-17.41.27:350][574]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 4
+[2026.02.18-17.41.27:396][575]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 4
+[2026.02.18-17.41.27:396][575]LogBlueprintUserMessages: [Lobby_GM_C_0] 3
+[2026.02.18-17.41.27:441][576]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 3
+[2026.02.18-17.41.27:488][577]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 3
+[2026.02.18-17.41.27:534][578]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 3
+[2026.02.18-17.41.27:580][579]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 3
+[2026.02.18-17.41.27:626][580]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 3
+[2026.02.18-17.41.27:671][581]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 3
+[2026.02.18-17.41.27:720][582]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 3
+[2026.02.18-17.41.27:765][583]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 3
+[2026.02.18-17.41.27:812][584]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 3
+[2026.02.18-17.41.27:859][585]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 3
+[2026.02.18-17.41.27:905][586]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 3
+[2026.02.18-17.41.27:951][587]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 3
+[2026.02.18-17.41.27:999][588]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 3
+[2026.02.18-17.41.28:043][589]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 3
+[2026.02.18-17.41.28:090][590]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 3
+[2026.02.18-17.41.28:137][591]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 3
+[2026.02.18-17.41.28:180][592]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 3
+[2026.02.18-17.41.28:228][593]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 3
+[2026.02.18-17.41.28:272][594]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 3
+[2026.02.18-17.41.28:321][595]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 3
+[2026.02.18-17.41.28:367][596]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 3
+[2026.02.18-17.41.28:414][597]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 3
+[2026.02.18-17.41.28:415][597]LogBlueprintUserMessages: [Lobby_GM_C_0] 2
+[2026.02.18-17.41.28:459][598]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 2
+[2026.02.18-17.41.28:506][599]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 2
+[2026.02.18-17.41.28:553][600]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 2
+[2026.02.18-17.41.28:598][601]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 2
+[2026.02.18-17.41.28:645][602]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 2
+[2026.02.18-17.41.28:692][603]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 2
+[2026.02.18-17.41.28:738][604]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 2
+[2026.02.18-17.41.28:786][605]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 2
+[2026.02.18-17.41.28:833][606]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 2
+[2026.02.18-17.41.28:878][607]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 2
+[2026.02.18-17.41.28:925][608]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 2
+[2026.02.18-17.41.28:971][609]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 2
+[2026.02.18-17.41.29:018][610]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 2
+[2026.02.18-17.41.29:064][611]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 2
+[2026.02.18-17.41.29:113][612]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 2
+[2026.02.18-17.41.29:158][613]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 2
+[2026.02.18-17.41.29:203][614]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 2
+[2026.02.18-17.41.29:252][615]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 2
+[2026.02.18-17.41.29:299][616]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 2
+[2026.02.18-17.41.29:346][617]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 2
+[2026.02.18-17.41.29:392][618]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 2
+[2026.02.18-17.41.29:394][618]LogBlueprintUserMessages: [Lobby_GM_C_0] 1
+[2026.02.18-17.41.29:440][619]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 1
+[2026.02.18-17.41.29:486][620]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 1
+[2026.02.18-17.41.29:532][621]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 1
+[2026.02.18-17.41.29:579][622]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 1
+[2026.02.18-17.41.29:624][623]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 1
+[2026.02.18-17.41.29:668][624]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 1
+[2026.02.18-17.41.29:715][625]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 1
+[2026.02.18-17.41.29:762][626]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 1
+[2026.02.18-17.41.29:808][627]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 1
+[2026.02.18-17.41.29:856][628]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 1
+[2026.02.18-17.41.29:903][629]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 1
+[2026.02.18-17.41.29:949][630]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 1
+[2026.02.18-17.41.29:995][631]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 1
+[2026.02.18-17.41.30:041][632]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 1
+[2026.02.18-17.41.30:088][633]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 1
+[2026.02.18-17.41.30:135][634]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 1
+[2026.02.18-17.41.30:183][635]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 1
+[2026.02.18-17.41.30:227][636]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 1
+[2026.02.18-17.41.30:272][637]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 1
+[2026.02.18-17.41.30:318][638]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 1
+[2026.02.18-17.41.30:366][639]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 1
+[2026.02.18-17.41.30:410][640]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 1
+[2026.02.18-17.41.30:411][640]LogBlueprintUserMessages: [Lobby_GM_C_0] 0
+[2026.02.18-17.41.30:457][641]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.30:502][642]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.30:549][643]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.30:596][644]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.30:641][645]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.30:688][646]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.30:733][647]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.30:781][648]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.30:827][649]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.30:874][650]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.30:922][651]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.30:968][652]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.31:015][653]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.31:060][654]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.31:106][655]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.31:154][656]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.31:202][657]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.31:246][658]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.31:294][659]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.31:341][660]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.31:387][661]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.31:433][662]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.31:481][663]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.31:526][664]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.31:574][665]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.31:620][666]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.31:668][667]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.31:714][668]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.31:759][669]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.31:806][670]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.31:853][671]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.31:900][672]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.31:944][673]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.31:991][674]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.32:039][675]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.32:086][676]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.32:130][677]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.32:179][678]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.32:224][679]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.32:274][680]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.32:320][681]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.32:367][682]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.32:412][683]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.32:459][684]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.32:506][685]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.32:552][686]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.32:599][687]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.32:647][688]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.32:694][689]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.32:739][690]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.32:787][691]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.32:833][692]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.32:879][693]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.32:926][694]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.32:972][695]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.33:019][696]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.33:065][697]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.33:112][698]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.33:159][699]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.33:205][700]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.33:250][701]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.33:298][702]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.33:345][703]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.33:391][704]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.33:438][705]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.33:486][706]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.33:531][707]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.33:578][708]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.33:626][709]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.33:671][710]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.33:717][711]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.33:765][712]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.33:813][713]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.33:859][714]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.33:904][715]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.33:952][716]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.33:997][717]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.34:045][718]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.34:091][719]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.34:138][720]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.34:185][721]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.34:231][722]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.34:278][723]LogNet: UChannel::ReceivedSequencedBunch: Bunch.bClose == true. ChIndex == 0. Calling ConditionalCleanUp.
+[2026.02.18-17.41.34:278][723]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:55216, Name: IpConnection_0, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_0, IsServer: YES, PC: BP_ThirdPersonPlayerController_C_0, Owner: BP_ThirdPersonPlayerController_C_0, UniqueId: NULL:DESKTOP-A8QTU1U-28A487684A733CBFD3BC7DAE2C840A7E
+[2026.02.18-17.41.34:279][723]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:55216, Name: IpConnection_0, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_0, IsServer: YES, PC: BP_ThirdPersonPlayerController_C_0, Owner: BP_ThirdPersonPlayerController_C_0, UniqueId: NULL:DESKTOP-A8QTU1U-28A487684A733CBFD3BC7DAE2C840A7E, Channels: 16, Time: 2026.02.18-17.41.34
+[2026.02.18-17.41.34:279][723]LogNet: UNetConnection::SendCloseReason:
+[2026.02.18-17.41.34:279][723]LogNet:  - Result=ControlChannelClose, ErrorContext="ControlChannelClose"
+[2026.02.18-17.41.34:279][723]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:55216, Name: IpConnection_0, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_0, IsServer: YES, PC: BP_ThirdPersonPlayerController_C_0, Owner: BP_ThirdPersonPlayerController_C_0, UniqueId: NULL:DESKTOP-A8QTU1U-28A487684A733CBFD3BC7DAE2C840A7E
+[2026.02.18-17.41.34:279][723]LogNet: UNetDriver::RemoveClientConnection - Removed address 127.0.0.1:55216 from MappedClientConnections for: [UNetConnection] RemoteAddr: 127.0.0.1:55216, Name: IpConnection_0, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_0, IsServer: YES, PC: BP_ThirdPersonPlayerController_C_0, Owner: BP_ThirdPersonPlayerController_C_0, UniqueId: NULL:DESKTOP-A8QTU1U-28A487684A733CBFD3BC7DAE2C840A7E
+[2026.02.18-17.41.34:280][723]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.34:324][724]LogNet: UChannel::ReceivedSequencedBunch: Bunch.bClose == true. ChIndex == 0. Calling ConditionalCleanUp.
+[2026.02.18-17.41.34:324][724]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:55217, Name: IpConnection_1, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_0, IsServer: YES, PC: BP_ThirdPersonPlayerController_C_1, Owner: BP_ThirdPersonPlayerController_C_1, UniqueId: NULL:DESKTOP-A8QTU1U-84882CB140BD0CE1BA077B99A41A6F8D
+[2026.02.18-17.41.34:325][724]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:55217, Name: IpConnection_1, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_0, IsServer: YES, PC: BP_ThirdPersonPlayerController_C_1, Owner: BP_ThirdPersonPlayerController_C_1, UniqueId: NULL:DESKTOP-A8QTU1U-84882CB140BD0CE1BA077B99A41A6F8D, Channels: 16, Time: 2026.02.18-17.41.34
+[2026.02.18-17.41.34:325][724]LogNet: UNetConnection::SendCloseReason:
+[2026.02.18-17.41.34:325][724]LogNet:  - Result=ControlChannelClose, ErrorContext="ControlChannelClose"
+[2026.02.18-17.41.34:325][724]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:55217, Name: IpConnection_1, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_0, IsServer: YES, PC: BP_ThirdPersonPlayerController_C_1, Owner: BP_ThirdPersonPlayerController_C_1, UniqueId: NULL:DESKTOP-A8QTU1U-84882CB140BD0CE1BA077B99A41A6F8D
+[2026.02.18-17.41.34:327][724]LogNet: UNetDriver::RemoveClientConnection - Removed address 127.0.0.1:55217 from MappedClientConnections for: [UNetConnection] RemoteAddr: 127.0.0.1:55217, Name: IpConnection_1, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_0, IsServer: YES, PC: BP_ThirdPersonPlayerController_C_1, Owner: BP_ThirdPersonPlayerController_C_1, UniqueId: NULL:DESKTOP-A8QTU1U-84882CB140BD0CE1BA077B99A41A6F8D
+[2026.02.18-17.41.34:327][724]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.34:370][725]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.34:417][726]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.34:464][727]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.34:511][728]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.34:557][729]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.34:604][730]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.34:651][731]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.34:699][732]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.34:746][733]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.34:793][734]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.34:840][735]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.34:887][736]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.34:933][737]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.34:980][738]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.35:028][739]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.35:074][740]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.35:121][741]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.35:169][742]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.35:214][743]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.35:261][744]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.35:308][745]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.35:355][746]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.35:402][747]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.35:449][748]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.35:496][749]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.35:543][750]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.35:588][751]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.35:634][752]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.35:680][753]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.35:728][754]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.35:774][755]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.35:820][756]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.35:865][757]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.35:911][758]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.35:958][759]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.36:005][760]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.36:050][761]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.36:097][762]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.36:144][763]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.36:191][764]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.36:237][765]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.36:284][766]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.36:331][767]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.36:376][768]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.36:424][769]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.36:471][770]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.36:518][771]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.36:565][772]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.36:612][773]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.36:659][774]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.36:705][775]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.36:753][776]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.36:798][777]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.36:844][778]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.36:889][779]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.36:937][780]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.36:984][781]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.37:030][782]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.37:076][783]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.37:123][784]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.37:170][785]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.37:216][786]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.37:262][787]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.37:309][788]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.37:355][789]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.37:403][790]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.37:448][791]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.37:496][792]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.37:542][793]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.37:589][794]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.37:636][795]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.37:683][796]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.37:730][797]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.37:777][798]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.37:823][799]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.37:869][800]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.37:916][801]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.37:963][802]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.38:008][803]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.38:056][804]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.38:103][805]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.38:150][806]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.38:197][807]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.38:244][808]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.38:291][809]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.38:339][810]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.38:387][811]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.38:433][812]LogBlueprintUserMessages: [CountDownClock_BP_C_1] 0
+[2026.02.18-17.41.38:446][813]LogCore: Engine exit requested (reason: ConsoleCtrl RequestExit)
