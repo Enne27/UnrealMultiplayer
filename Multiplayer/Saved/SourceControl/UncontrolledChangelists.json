@@ -11,7 +11,12 @@
 				"C:/Users/user/Documents/GitHub/UnrealMultiplayer/Multiplayer/Content/GameBlueprints/GameModes/Arena_GM.uasset",
 				"C:/Users/user/Documents/GitHub/UnrealMultiplayer/Multiplayer/Content/Blueprints/Pawns/Naves/NaveParent.uasset",
 				"C:/Users/user/Documents/GitHub/UnrealMultiplayer/Multiplayer/Content/Blueprints/Controllers/Nave_controller.uasset",
-				"C:/Users/user/Documents/GitHub/UnrealMultiplayer/Multiplayer/Content/Blueprints/Actors/CountDownClock_BP.uasset"
+				"C:/Users/user/Documents/GitHub/UnrealMultiplayer/Multiplayer/Content/Blueprints/Actors/CountDownClock_BP.uasset",
+				"C:/Users/user/Documents/GitHub/UnrealMultiplayer/Multiplayer/Content/GameBlueprints/GameModes/Lobby_GM.uasset",
+				"C:/Users/user/Documents/GitHub/UnrealMultiplayer/Multiplayer/Content/Maps/Lobby_lvl.umap",
+				"C:/Users/user/Documents/GitHub/UnrealMultiplayer/Multiplayer/Content/Blueprints/Pawns/Naves/MiNave3_BP.uasset",
+				"C:/Users/user/Documents/GitHub/UnrealMultiplayer/Multiplayer/Content/Blueprints/Pawns/Naves/MiNave2_BP.uasset",
+				"C:/Users/user/Documents/GitHub/UnrealMultiplayer/Multiplayer/Content/Blueprints/Pawns/Naves/MiNave_BP.uasset"
 			]
 		}
 	]
