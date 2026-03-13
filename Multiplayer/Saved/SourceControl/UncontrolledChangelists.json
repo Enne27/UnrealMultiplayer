@@ -6,13 +6,6 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"C:/Program Files/Epic Games/UE_5.6/Engine/Content/EditorMeshes/EditorSphere.uasset",
-				"C:/Users/Win10/Documents/GitHub/UnrealMultiplayer/Multiplayer/Content/Blueprints/Pawns/Naves/NaveParent.uasset",
-				"C:/Users/Win10/Documents/GitHub/UnrealMultiplayer/Multiplayer/Content/Blueprints/Pawns/Naves/MiNave_BP.uasset",
-				"C:/Users/Win10/Documents/GitHub/UnrealMultiplayer/Multiplayer/Content/GameBlueprints/HUD/Interfaces/userName_WG.uasset",
-				"C:/Users/Win10/Documents/GitHub/UnrealMultiplayer/Multiplayer/Content/Blueprints/Pawns/Naves/MiNave2_BP.uasset",
-				"C:/Users/Win10/Documents/GitHub/UnrealMultiplayer/Multiplayer/Content/Blueprints/Pawns/Naves/MiNave3_BP.uasset",
-				"C:/Users/Win10/Documents/GitHub/UnrealMultiplayer/Multiplayer/Content/Blueprints/Actors/EsferaDestruccionMasiva_BP.uasset",
-				"C:/Users/Win10/Documents/GitHub/UnrealMultiplayer/Multiplayer/Content/Maps/ArenaMap_lvl.umap",
 				"C:/Users/user/Documents/GitHub/UnrealMultiplayer/Multiplayer/Content/GameBlueprints/HUD/Arena_HUD.uasset",
 				"C:/Users/user/Documents/GitHub/UnrealMultiplayer/Multiplayer/Content/GameBlueprints/HUD/Interfaces/CountDownARENA_WG.uasset",
 				"C:/Users/user/Documents/GitHub/UnrealMultiplayer/Multiplayer/Content/Maps/ArenaMap_lvl.umap",
@@ -27,7 +20,15 @@
 				"C:/Users/user/Documents/GitHub/UnrealMultiplayer/Multiplayer/Content/Blueprints/Pawns/Naves/MiNave_BP.uasset",
 				"C:/Users/user/Documents/GitHub/UnrealMultiplayer/Multiplayer/Content/Blueprints/Actors/EsferaDestruccionMasiva_BP.uasset",
 				"C:/Users/user/Documents/GitHub/UnrealMultiplayer/Multiplayer/Content/Materials/SphereMassiveDestruction_mat.uasset",
-				"C:/Users/user/Documents/GitHub/UnrealMultiplayer/Multiplayer/Content/Blueprints/Actors/Laseres/Laser_BP.uasset"
+				"C:/Users/user/Documents/GitHub/UnrealMultiplayer/Multiplayer/Content/Blueprints/Actors/Laseres/Laser_BP.uasset",
+				"C:/Users/user/Documents/GitHub/UnrealMultiplayer/Multiplayer/Content/GameBlueprints/HUD/Interfaces/Winner_WG.uasset",
+				"C:/Users/Win10/Documents/GitHub/UnrealMultiplayer/Multiplayer/Content/Blueprints/Pawns/Naves/NaveParent.uasset",
+				"C:/Users/Win10/Documents/GitHub/UnrealMultiplayer/Multiplayer/Content/Blueprints/Pawns/Naves/MiNave_BP.uasset",
+				"C:/Users/Win10/Documents/GitHub/UnrealMultiplayer/Multiplayer/Content/GameBlueprints/HUD/Interfaces/userName_WG.uasset",
+				"C:/Users/Win10/Documents/GitHub/UnrealMultiplayer/Multiplayer/Content/Blueprints/Pawns/Naves/MiNave2_BP.uasset",
+				"C:/Users/Win10/Documents/GitHub/UnrealMultiplayer/Multiplayer/Content/Blueprints/Pawns/Naves/MiNave3_BP.uasset",
+				"C:/Users/Win10/Documents/GitHub/UnrealMultiplayer/Multiplayer/Content/Blueprints/Actors/EsferaDestruccionMasiva_BP.uasset",
+				"C:/Users/Win10/Documents/GitHub/UnrealMultiplayer/Multiplayer/Content/Maps/ArenaMap_lvl.umap"
 			]
 		}
 	]
